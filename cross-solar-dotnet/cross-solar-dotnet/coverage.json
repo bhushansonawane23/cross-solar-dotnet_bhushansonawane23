@@ -1,0 +1,2818 @@
+{
+  "SourcePath": "E:\\cross-solar-dotnet\\cross-solar-dotnet\\",
+  "HitsFile": "E:\\cross-solar-dotnet\\cross-solar-dotnet\\coverage-hits.txt",
+  "ExtraAssemblies": [
+    "E:\\cross-solar-dotnet\\cross-solar-dotnet\\CrossSolar.Tests\\bin\\Debug\\netcoreapp2.0\\dotnet-minicover.dll"
+  ],
+  "Assemblies": [
+    {
+      "Name": "CrossSolar",
+      "SourceFiles": {
+        "CrossSolar\\Controllers\\AnalyticsController.cs": {
+          "Instructions": [
+            {
+              "Id": 129,
+              "StartLine": 20,
+              "EndLine": 21,
+              "StartColumn": 9,
+              "EndColumn": 61,
+              "Class": "CrossSolar.Controllers.AnalyticsController",
+              "Method": ".ctor",
+              "MethodFullName": "System.Void CrossSolar.Controllers.AnalyticsController::.ctor(CrossSolar.Repository.IAnalyticsRepository,CrossSolar.Repository.IPanelRepository,CrossSolar.Repository.IDayAnalyticsRepository)",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 130,
+              "StartLine": 23,
+              "EndLine": 23,
+              "StartColumn": 13,
+              "EndColumn": 62,
+              "Class": "CrossSolar.Controllers.AnalyticsController",
+              "Method": ".ctor",
+              "MethodFullName": "System.Void CrossSolar.Controllers.AnalyticsController::.ctor(CrossSolar.Repository.IAnalyticsRepository,CrossSolar.Repository.IPanelRepository,CrossSolar.Repository.IDayAnalyticsRepository)",
+              "Instruction": "IL_0008: ldarg "
+            },
+            {
+              "Id": 131,
+              "StartLine": 24,
+              "EndLine": 24,
+              "StartColumn": 13,
+              "EndColumn": 56,
+              "Class": "CrossSolar.Controllers.AnalyticsController",
+              "Method": ".ctor",
+              "MethodFullName": "System.Void CrossSolar.Controllers.AnalyticsController::.ctor(CrossSolar.Repository.IAnalyticsRepository,CrossSolar.Repository.IPanelRepository,CrossSolar.Repository.IDayAnalyticsRepository)",
+              "Instruction": "IL_000f: ldarg "
+            },
+            {
+              "Id": 132,
+              "StartLine": 25,
+              "EndLine": 25,
+              "StartColumn": 13,
+              "EndColumn": 48,
+              "Class": "CrossSolar.Controllers.AnalyticsController",
+              "Method": ".ctor",
+              "MethodFullName": "System.Void CrossSolar.Controllers.AnalyticsController::.ctor(CrossSolar.Repository.IAnalyticsRepository,CrossSolar.Repository.IPanelRepository,CrossSolar.Repository.IDayAnalyticsRepository)",
+              "Instruction": "IL_0016: ldarg "
+            },
+            {
+              "Id": 133,
+              "StartLine": 44,
+              "EndLine": 51,
+              "StartColumn": 61,
+              "EndColumn": 18,
+              "Class": "CrossSolar.Controllers.AnalyticsController/<>c",
+              "Method": "<Get>b__4_2",
+              "MethodFullName": "CrossSolar.Models.OneHourElectricityModel CrossSolar.Controllers.AnalyticsController/<>c::<Get>b__4_2(CrossSolar.Domain.OneHourElectricity)",
+              "Instruction": "IL_0000: newobj System.Void CrossSolar.Models.OneHourElectricityModel::.ctor()"
+            },
+            {
+              "Id": 134,
+              "StartLine": 44,
+              "EndLine": 51,
+              "StartColumn": 61,
+              "EndColumn": 18,
+              "Class": "CrossSolar.Controllers.AnalyticsController/<>c",
+              "Method": "<Get>b__4_2",
+              "MethodFullName": "CrossSolar.Models.OneHourElectricityModel CrossSolar.Controllers.AnalyticsController/<>c::<Get>b__4_2(CrossSolar.Domain.OneHourElectricity)",
+              "Instruction": "IL_0000: newobj System.Void CrossSolar.Models.OneHourElectricityModel::.ctor()"
+            },
+            {
+              "Id": 135,
+              "StartLine": 134,
+              "EndLine": 134,
+              "StartColumn": 69,
+              "EndColumn": 73,
+              "Class": "CrossSolar.Controllers.AnalyticsController/<>c",
+              "Method": "<Post>b__6_7",
+              "MethodFullName": "System.Int32 CrossSolar.Controllers.AnalyticsController/<>c::<Post>b__6_7(CrossSolar.Domain.OneDayElectricity)",
+              "Instruction": "IL_0000: ldarg y"
+            },
+            {
+              "Id": 136,
+              "StartLine": 134,
+              "EndLine": 134,
+              "StartColumn": 69,
+              "EndColumn": 73,
+              "Class": "CrossSolar.Controllers.AnalyticsController/<>c",
+              "Method": "<Post>b__6_7",
+              "MethodFullName": "System.Int32 CrossSolar.Controllers.AnalyticsController/<>c::<Post>b__6_7(CrossSolar.Domain.OneDayElectricity)",
+              "Instruction": "IL_0000: ldarg y"
+            },
+            {
+              "Id": 137,
+              "StartLine": 135,
+              "EndLine": 135,
+              "StartColumn": 43,
+              "EndColumn": 52,
+              "Class": "CrossSolar.Controllers.AnalyticsController/<>c",
+              "Method": "<Post>b__6_8",
+              "MethodFullName": "System.String CrossSolar.Controllers.AnalyticsController/<>c::<Post>b__6_8(CrossSolar.Domain.OneHourElectricity)",
+              "Instruction": "IL_0000: ldarg x"
+            },
+            {
+              "Id": 138,
+              "StartLine": 135,
+              "EndLine": 135,
+              "StartColumn": 43,
+              "EndColumn": 52,
+              "Class": "CrossSolar.Controllers.AnalyticsController/<>c",
+              "Method": "<Post>b__6_8",
+              "MethodFullName": "System.String CrossSolar.Controllers.AnalyticsController/<>c::<Post>b__6_8(CrossSolar.Domain.OneHourElectricity)",
+              "Instruction": "IL_0000: ldarg x"
+            },
+            {
+              "Id": 139,
+              "StartLine": 136,
+              "EndLine": 136,
+              "StartColumn": 39,
+              "EndColumn": 68,
+              "Class": "CrossSolar.Controllers.AnalyticsController/<>c",
+              "Method": "<Post>b__6_9",
+              "MethodFullName": "System.Decimal CrossSolar.Controllers.AnalyticsController/<>c::<Post>b__6_9(CrossSolar.Domain.OneHourElectricity)",
+              "Instruction": "IL_0000: ldarg x"
+            },
+            {
+              "Id": 140,
+              "StartLine": 136,
+              "EndLine": 136,
+              "StartColumn": 39,
+              "EndColumn": 68,
+              "Class": "CrossSolar.Controllers.AnalyticsController/<>c",
+              "Method": "<Post>b__6_9",
+              "MethodFullName": "System.Decimal CrossSolar.Controllers.AnalyticsController/<>c::<Post>b__6_9(CrossSolar.Domain.OneHourElectricity)",
+              "Instruction": "IL_0000: ldarg x"
+            },
+            {
+              "Id": 141,
+              "StartLine": 137,
+              "EndLine": 137,
+              "StartColumn": 43,
+              "EndColumn": 72,
+              "Class": "CrossSolar.Controllers.AnalyticsController/<>c",
+              "Method": "<Post>b__6_10",
+              "MethodFullName": "System.Decimal CrossSolar.Controllers.AnalyticsController/<>c::<Post>b__6_10(CrossSolar.Domain.OneHourElectricity)",
+              "Instruction": "IL_0000: ldarg x"
+            },
+            {
+              "Id": 142,
+              "StartLine": 137,
+              "EndLine": 137,
+              "StartColumn": 43,
+              "EndColumn": 72,
+              "Class": "CrossSolar.Controllers.AnalyticsController/<>c",
+              "Method": "<Post>b__6_10",
+              "MethodFullName": "System.Decimal CrossSolar.Controllers.AnalyticsController/<>c::<Post>b__6_10(CrossSolar.Domain.OneHourElectricity)",
+              "Instruction": "IL_0000: ldarg x"
+            },
+            {
+              "Id": 143,
+              "StartLine": 138,
+              "EndLine": 138,
+              "StartColumn": 43,
+              "EndColumn": 72,
+              "Class": "CrossSolar.Controllers.AnalyticsController/<>c",
+              "Method": "<Post>b__6_11",
+              "MethodFullName": "System.Decimal CrossSolar.Controllers.AnalyticsController/<>c::<Post>b__6_11(CrossSolar.Domain.OneHourElectricity)",
+              "Instruction": "IL_0000: ldarg x"
+            },
+            {
+              "Id": 144,
+              "StartLine": 138,
+              "EndLine": 138,
+              "StartColumn": 43,
+              "EndColumn": 72,
+              "Class": "CrossSolar.Controllers.AnalyticsController/<>c",
+              "Method": "<Post>b__6_11",
+              "MethodFullName": "System.Decimal CrossSolar.Controllers.AnalyticsController/<>c::<Post>b__6_11(CrossSolar.Domain.OneHourElectricity)",
+              "Instruction": "IL_0000: ldarg x"
+            },
+            {
+              "Id": 145,
+              "StartLine": 139,
+              "EndLine": 139,
+              "StartColumn": 43,
+              "EndColumn": 72,
+              "Class": "CrossSolar.Controllers.AnalyticsController/<>c",
+              "Method": "<Post>b__6_12",
+              "MethodFullName": "System.Decimal CrossSolar.Controllers.AnalyticsController/<>c::<Post>b__6_12(CrossSolar.Domain.OneHourElectricity)",
+              "Instruction": "IL_0000: ldarg x"
+            },
+            {
+              "Id": 146,
+              "StartLine": 139,
+              "EndLine": 139,
+              "StartColumn": 43,
+              "EndColumn": 72,
+              "Class": "CrossSolar.Controllers.AnalyticsController/<>c",
+              "Method": "<Post>b__6_12",
+              "MethodFullName": "System.Decimal CrossSolar.Controllers.AnalyticsController/<>c::<Post>b__6_12(CrossSolar.Domain.OneHourElectricity)",
+              "Instruction": "IL_0000: ldarg x"
+            },
+            {
+              "Id": 147,
+              "StartLine": 140,
+              "EndLine": 140,
+              "StartColumn": 44,
+              "EndColumn": 59,
+              "Class": "CrossSolar.Controllers.AnalyticsController/<>c",
+              "Method": "<Post>b__6_13",
+              "MethodFullName": "System.DateTime CrossSolar.Controllers.AnalyticsController/<>c::<Post>b__6_13(CrossSolar.Domain.OneHourElectricity)",
+              "Instruction": "IL_0000: ldarg x"
+            },
+            {
+              "Id": 148,
+              "StartLine": 140,
+              "EndLine": 140,
+              "StartColumn": 44,
+              "EndColumn": 59,
+              "Class": "CrossSolar.Controllers.AnalyticsController/<>c",
+              "Method": "<Post>b__6_13",
+              "MethodFullName": "System.DateTime CrossSolar.Controllers.AnalyticsController/<>c::<Post>b__6_13(CrossSolar.Domain.OneHourElectricity)",
+              "Instruction": "IL_0000: ldarg x"
+            },
+            {
+              "Id": 149,
+              "StartLine": 34,
+              "EndLine": 34,
+              "StartColumn": 13,
+              "EndColumn": 165,
+              "Class": "CrossSolar.Controllers.AnalyticsController/<Get>d__4",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void CrossSolar.Controllers.AnalyticsController/<Get>d__4::MoveNext()",
+              "Instruction": "IL_0039: ldarg "
+            },
+            {
+              "Id": 150,
+              "StartLine": 36,
+              "EndLine": 36,
+              "StartColumn": 13,
+              "EndColumn": 31,
+              "Class": "CrossSolar.Controllers.AnalyticsController/<Get>d__4",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void CrossSolar.Controllers.AnalyticsController/<Get>d__4::MoveNext()",
+              "Instruction": "IL_0162: ldarg "
+            },
+            {
+              "Id": 151,
+              "StartLine": 36,
+              "EndLine": 36,
+              "StartColumn": 32,
+              "EndColumn": 50,
+              "Class": "CrossSolar.Controllers.AnalyticsController/<Get>d__4",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void CrossSolar.Controllers.AnalyticsController/<Get>d__4::MoveNext()",
+              "Instruction": "IL_0171: ldarg "
+            },
+            {
+              "Id": 152,
+              "StartLine": 38,
+              "EndLine": 40,
+              "StartColumn": 13,
+              "EndColumn": 47,
+              "Class": "CrossSolar.Controllers.AnalyticsController/<Get>d__4",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void CrossSolar.Controllers.AnalyticsController/<Get>d__4::MoveNext()",
+              "Instruction": "IL_0182: ldarg "
+            },
+            {
+              "Id": 153,
+              "StartLine": 42,
+              "EndLine": 52,
+              "StartColumn": 13,
+              "EndColumn": 15,
+              "Class": "CrossSolar.Controllers.AnalyticsController/<Get>d__4",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void CrossSolar.Controllers.AnalyticsController/<Get>d__4::MoveNext()",
+              "Instruction": "IL_02b3: ldarg "
+            },
+            {
+              "Id": 154,
+              "StartLine": 54,
+              "EndLine": 54,
+              "StartColumn": 13,
+              "EndColumn": 31,
+              "Class": "CrossSolar.Controllers.AnalyticsController/<Get>d__4",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void CrossSolar.Controllers.AnalyticsController/<Get>d__4::MoveNext()",
+              "Instruction": "IL_02ef: ldarg "
+            },
+            {
+              "Id": 155,
+              "StartLine": 34,
+              "EndLine": 34,
+              "StartColumn": 13,
+              "EndColumn": 165,
+              "Class": "CrossSolar.Controllers.AnalyticsController/<Get>d__4",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void CrossSolar.Controllers.AnalyticsController/<Get>d__4::MoveNext()",
+              "Instruction": "IL_0039: ldarg "
+            },
+            {
+              "Id": 156,
+              "StartLine": 36,
+              "EndLine": 36,
+              "StartColumn": 13,
+              "EndColumn": 31,
+              "Class": "CrossSolar.Controllers.AnalyticsController/<Get>d__4",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void CrossSolar.Controllers.AnalyticsController/<Get>d__4::MoveNext()",
+              "Instruction": "IL_0162: ldarg "
+            },
+            {
+              "Id": 157,
+              "StartLine": 36,
+              "EndLine": 36,
+              "StartColumn": 32,
+              "EndColumn": 50,
+              "Class": "CrossSolar.Controllers.AnalyticsController/<Get>d__4",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void CrossSolar.Controllers.AnalyticsController/<Get>d__4::MoveNext()",
+              "Instruction": "IL_0171: ldarg "
+            },
+            {
+              "Id": 158,
+              "StartLine": 38,
+              "EndLine": 40,
+              "StartColumn": 13,
+              "EndColumn": 47,
+              "Class": "CrossSolar.Controllers.AnalyticsController/<Get>d__4",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void CrossSolar.Controllers.AnalyticsController/<Get>d__4::MoveNext()",
+              "Instruction": "IL_0182: ldarg "
+            },
+            {
+              "Id": 159,
+              "StartLine": 42,
+              "EndLine": 52,
+              "StartColumn": 13,
+              "EndColumn": 15,
+              "Class": "CrossSolar.Controllers.AnalyticsController/<Get>d__4",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void CrossSolar.Controllers.AnalyticsController/<Get>d__4::MoveNext()",
+              "Instruction": "IL_02b3: ldarg "
+            },
+            {
+              "Id": 160,
+              "StartLine": 54,
+              "EndLine": 54,
+              "StartColumn": 13,
+              "EndColumn": 31,
+              "Class": "CrossSolar.Controllers.AnalyticsController/<Get>d__4",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void CrossSolar.Controllers.AnalyticsController/<Get>d__4::MoveNext()",
+              "Instruction": "IL_02ef: ldarg "
+            },
+            {
+              "Id": 161,
+              "StartLine": 62,
+              "EndLine": 62,
+              "StartColumn": 13,
+              "EndColumn": 165,
+              "Class": "CrossSolar.Controllers.AnalyticsController/<DayResults>d__5",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void CrossSolar.Controllers.AnalyticsController/<DayResults>d__5::MoveNext()",
+              "Instruction": "IL_0039: ldarg "
+            },
+            {
+              "Id": 162,
+              "StartLine": 64,
+              "EndLine": 64,
+              "StartColumn": 13,
+              "EndColumn": 31,
+              "Class": "CrossSolar.Controllers.AnalyticsController/<DayResults>d__5",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void CrossSolar.Controllers.AnalyticsController/<DayResults>d__5::MoveNext()",
+              "Instruction": "IL_0162: ldarg "
+            },
+            {
+              "Id": 163,
+              "StartLine": 64,
+              "EndLine": 64,
+              "StartColumn": 32,
+              "EndColumn": 50,
+              "Class": "CrossSolar.Controllers.AnalyticsController/<DayResults>d__5",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void CrossSolar.Controllers.AnalyticsController/<DayResults>d__5::MoveNext()",
+              "Instruction": "IL_0171: ldarg "
+            },
+            {
+              "Id": 164,
+              "StartLine": 66,
+              "EndLine": 66,
+              "StartColumn": 13,
+              "EndColumn": 61,
+              "Class": "CrossSolar.Controllers.AnalyticsController/<DayResults>d__5",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void CrossSolar.Controllers.AnalyticsController/<DayResults>d__5::MoveNext()",
+              "Instruction": "IL_0182: ldarg "
+            },
+            {
+              "Id": 165,
+              "StartLine": 68,
+              "EndLine": 70,
+              "StartColumn": 13,
+              "EndColumn": 41,
+              "Class": "CrossSolar.Controllers.AnalyticsController/<DayResults>d__5",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void CrossSolar.Controllers.AnalyticsController/<DayResults>d__5::MoveNext()",
+              "Instruction": "IL_018d: ldarg "
+            },
+            {
+              "Id": 166,
+              "StartLine": 72,
+              "EndLine": 72,
+              "StartColumn": 13,
+              "EndColumn": 20,
+              "Class": "CrossSolar.Controllers.AnalyticsController/<DayResults>d__5",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void CrossSolar.Controllers.AnalyticsController/<DayResults>d__5::MoveNext()",
+              "Instruction": "IL_02be: nop"
+            },
+            {
+              "Id": 167,
+              "StartLine": 72,
+              "EndLine": 72,
+              "StartColumn": 36,
+              "EndColumn": 47,
+              "Class": "CrossSolar.Controllers.AnalyticsController/<DayResults>d__5",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void CrossSolar.Controllers.AnalyticsController/<DayResults>d__5::MoveNext()",
+              "Instruction": "IL_02bf: ldarg "
+            },
+            {
+              "Id": 168,
+              "StartLine": 72,
+              "EndLine": 72,
+              "StartColumn": 22,
+              "EndColumn": 32,
+              "Class": "CrossSolar.Controllers.AnalyticsController/<DayResults>d__5",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void CrossSolar.Controllers.AnalyticsController/<DayResults>d__5::MoveNext()",
+              "Instruction": "IL_02d5: ldarg "
+            },
+            {
+              "Id": 169,
+              "StartLine": 74,
+              "EndLine": 74,
+              "StartColumn": 17,
+              "EndColumn": 94,
+              "Class": "CrossSolar.Controllers.AnalyticsController/<DayResults>d__5",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void CrossSolar.Controllers.AnalyticsController/<DayResults>d__5::MoveNext()",
+              "Instruction": "IL_02e7: ldarg "
+            },
+            {
+              "Id": 170,
+              "StartLine": 75,
+              "EndLine": 75,
+              "StartColumn": 17,
+              "EndColumn": 55,
+              "Class": "CrossSolar.Controllers.AnalyticsController/<DayResults>d__5",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void CrossSolar.Controllers.AnalyticsController/<DayResults>d__5::MoveNext()",
+              "Instruction": "IL_02f2: ldarg "
+            },
+            {
+              "Id": 171,
+              "StartLine": 76,
+              "EndLine": 76,
+              "StartColumn": 17,
+              "EndColumn": 65,
+              "Class": "CrossSolar.Controllers.AnalyticsController/<DayResults>d__5",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void CrossSolar.Controllers.AnalyticsController/<DayResults>d__5::MoveNext()",
+              "Instruction": "IL_0309: ldarg "
+            },
+            {
+              "Id": 172,
+              "StartLine": 77,
+              "EndLine": 77,
+              "StartColumn": 17,
+              "EndColumn": 67,
+              "Class": "CrossSolar.Controllers.AnalyticsController/<DayResults>d__5",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void CrossSolar.Controllers.AnalyticsController/<DayResults>d__5::MoveNext()",
+              "Instruction": "IL_0320: ldarg "
+            },
+            {
+              "Id": 173,
+              "StartLine": 78,
+              "EndLine": 78,
+              "StartColumn": 17,
+              "EndColumn": 57,
+              "Class": "CrossSolar.Controllers.AnalyticsController/<DayResults>d__5",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void CrossSolar.Controllers.AnalyticsController/<DayResults>d__5::MoveNext()",
+              "Instruction": "IL_0337: ldarg "
+            },
+            {
+              "Id": 174,
+              "StartLine": 79,
+              "EndLine": 79,
+              "StartColumn": 17,
+              "EndColumn": 65,
+              "Class": "CrossSolar.Controllers.AnalyticsController/<DayResults>d__5",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void CrossSolar.Controllers.AnalyticsController/<DayResults>d__5::MoveNext()",
+              "Instruction": "IL_034e: ldarg "
+            },
+            {
+              "Id": 175,
+              "StartLine": 80,
+              "EndLine": 80,
+              "StartColumn": 17,
+              "EndColumn": 65,
+              "Class": "CrossSolar.Controllers.AnalyticsController/<DayResults>d__5",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void CrossSolar.Controllers.AnalyticsController/<DayResults>d__5::MoveNext()",
+              "Instruction": "IL_0365: ldarg "
+            },
+            {
+              "Id": 176,
+              "StartLine": 81,
+              "EndLine": 81,
+              "StartColumn": 17,
+              "EndColumn": 65,
+              "Class": "CrossSolar.Controllers.AnalyticsController/<DayResults>d__5",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void CrossSolar.Controllers.AnalyticsController/<DayResults>d__5::MoveNext()",
+              "Instruction": "IL_037c: ldarg "
+            },
+            {
+              "Id": 177,
+              "StartLine": 82,
+              "EndLine": 82,
+              "StartColumn": 17,
+              "EndColumn": 52,
+              "Class": "CrossSolar.Controllers.AnalyticsController/<DayResults>d__5",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void CrossSolar.Controllers.AnalyticsController/<DayResults>d__5::MoveNext()",
+              "Instruction": "IL_0393: ldarg "
+            },
+            {
+              "Id": 178,
+              "StartLine": 72,
+              "EndLine": 72,
+              "StartColumn": 33,
+              "EndColumn": 35,
+              "Class": "CrossSolar.Controllers.AnalyticsController/<DayResults>d__5",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void CrossSolar.Controllers.AnalyticsController/<DayResults>d__5::MoveNext()",
+              "Instruction": "IL_03b4: ldarg "
+            },
+            {
+              "Id": 179,
+              "StartLine": 85,
+              "EndLine": 85,
+              "StartColumn": 13,
+              "EndColumn": 31,
+              "Class": "CrossSolar.Controllers.AnalyticsController/<DayResults>d__5",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void CrossSolar.Controllers.AnalyticsController/<DayResults>d__5::MoveNext()",
+              "Instruction": "IL_03e9: ldarg "
+            },
+            {
+              "Id": 180,
+              "StartLine": 62,
+              "EndLine": 62,
+              "StartColumn": 13,
+              "EndColumn": 165,
+              "Class": "CrossSolar.Controllers.AnalyticsController/<DayResults>d__5",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void CrossSolar.Controllers.AnalyticsController/<DayResults>d__5::MoveNext()",
+              "Instruction": "IL_0039: ldarg "
+            },
+            {
+              "Id": 181,
+              "StartLine": 64,
+              "EndLine": 64,
+              "StartColumn": 13,
+              "EndColumn": 31,
+              "Class": "CrossSolar.Controllers.AnalyticsController/<DayResults>d__5",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void CrossSolar.Controllers.AnalyticsController/<DayResults>d__5::MoveNext()",
+              "Instruction": "IL_0162: ldarg "
+            },
+            {
+              "Id": 182,
+              "StartLine": 64,
+              "EndLine": 64,
+              "StartColumn": 32,
+              "EndColumn": 50,
+              "Class": "CrossSolar.Controllers.AnalyticsController/<DayResults>d__5",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void CrossSolar.Controllers.AnalyticsController/<DayResults>d__5::MoveNext()",
+              "Instruction": "IL_0171: ldarg "
+            },
+            {
+              "Id": 183,
+              "StartLine": 66,
+              "EndLine": 66,
+              "StartColumn": 13,
+              "EndColumn": 61,
+              "Class": "CrossSolar.Controllers.AnalyticsController/<DayResults>d__5",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void CrossSolar.Controllers.AnalyticsController/<DayResults>d__5::MoveNext()",
+              "Instruction": "IL_0182: ldarg "
+            },
+            {
+              "Id": 184,
+              "StartLine": 68,
+              "EndLine": 70,
+              "StartColumn": 13,
+              "EndColumn": 41,
+              "Class": "CrossSolar.Controllers.AnalyticsController/<DayResults>d__5",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void CrossSolar.Controllers.AnalyticsController/<DayResults>d__5::MoveNext()",
+              "Instruction": "IL_018d: ldarg "
+            },
+            {
+              "Id": 185,
+              "StartLine": 72,
+              "EndLine": 72,
+              "StartColumn": 13,
+              "EndColumn": 20,
+              "Class": "CrossSolar.Controllers.AnalyticsController/<DayResults>d__5",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void CrossSolar.Controllers.AnalyticsController/<DayResults>d__5::MoveNext()",
+              "Instruction": "IL_02be: nop"
+            },
+            {
+              "Id": 186,
+              "StartLine": 72,
+              "EndLine": 72,
+              "StartColumn": 36,
+              "EndColumn": 47,
+              "Class": "CrossSolar.Controllers.AnalyticsController/<DayResults>d__5",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void CrossSolar.Controllers.AnalyticsController/<DayResults>d__5::MoveNext()",
+              "Instruction": "IL_02bf: ldarg "
+            },
+            {
+              "Id": 187,
+              "StartLine": 72,
+              "EndLine": 72,
+              "StartColumn": 22,
+              "EndColumn": 32,
+              "Class": "CrossSolar.Controllers.AnalyticsController/<DayResults>d__5",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void CrossSolar.Controllers.AnalyticsController/<DayResults>d__5::MoveNext()",
+              "Instruction": "IL_02d5: ldarg "
+            },
+            {
+              "Id": 188,
+              "StartLine": 74,
+              "EndLine": 74,
+              "StartColumn": 17,
+              "EndColumn": 94,
+              "Class": "CrossSolar.Controllers.AnalyticsController/<DayResults>d__5",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void CrossSolar.Controllers.AnalyticsController/<DayResults>d__5::MoveNext()",
+              "Instruction": "IL_02e7: ldarg "
+            },
+            {
+              "Id": 189,
+              "StartLine": 75,
+              "EndLine": 75,
+              "StartColumn": 17,
+              "EndColumn": 55,
+              "Class": "CrossSolar.Controllers.AnalyticsController/<DayResults>d__5",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void CrossSolar.Controllers.AnalyticsController/<DayResults>d__5::MoveNext()",
+              "Instruction": "IL_02f2: ldarg "
+            },
+            {
+              "Id": 190,
+              "StartLine": 76,
+              "EndLine": 76,
+              "StartColumn": 17,
+              "EndColumn": 65,
+              "Class": "CrossSolar.Controllers.AnalyticsController/<DayResults>d__5",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void CrossSolar.Controllers.AnalyticsController/<DayResults>d__5::MoveNext()",
+              "Instruction": "IL_0309: ldarg "
+            },
+            {
+              "Id": 191,
+              "StartLine": 77,
+              "EndLine": 77,
+              "StartColumn": 17,
+              "EndColumn": 67,
+              "Class": "CrossSolar.Controllers.AnalyticsController/<DayResults>d__5",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void CrossSolar.Controllers.AnalyticsController/<DayResults>d__5::MoveNext()",
+              "Instruction": "IL_0320: ldarg "
+            },
+            {
+              "Id": 192,
+              "StartLine": 78,
+              "EndLine": 78,
+              "StartColumn": 17,
+              "EndColumn": 57,
+              "Class": "CrossSolar.Controllers.AnalyticsController/<DayResults>d__5",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void CrossSolar.Controllers.AnalyticsController/<DayResults>d__5::MoveNext()",
+              "Instruction": "IL_0337: ldarg "
+            },
+            {
+              "Id": 193,
+              "StartLine": 79,
+              "EndLine": 79,
+              "StartColumn": 17,
+              "EndColumn": 65,
+              "Class": "CrossSolar.Controllers.AnalyticsController/<DayResults>d__5",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void CrossSolar.Controllers.AnalyticsController/<DayResults>d__5::MoveNext()",
+              "Instruction": "IL_034e: ldarg "
+            },
+            {
+              "Id": 194,
+              "StartLine": 80,
+              "EndLine": 80,
+              "StartColumn": 17,
+              "EndColumn": 65,
+              "Class": "CrossSolar.Controllers.AnalyticsController/<DayResults>d__5",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void CrossSolar.Controllers.AnalyticsController/<DayResults>d__5::MoveNext()",
+              "Instruction": "IL_0365: ldarg "
+            },
+            {
+              "Id": 195,
+              "StartLine": 81,
+              "EndLine": 81,
+              "StartColumn": 17,
+              "EndColumn": 65,
+              "Class": "CrossSolar.Controllers.AnalyticsController/<DayResults>d__5",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void CrossSolar.Controllers.AnalyticsController/<DayResults>d__5::MoveNext()",
+              "Instruction": "IL_037c: ldarg "
+            },
+            {
+              "Id": 196,
+              "StartLine": 82,
+              "EndLine": 82,
+              "StartColumn": 17,
+              "EndColumn": 52,
+              "Class": "CrossSolar.Controllers.AnalyticsController/<DayResults>d__5",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void CrossSolar.Controllers.AnalyticsController/<DayResults>d__5::MoveNext()",
+              "Instruction": "IL_0393: ldarg "
+            },
+            {
+              "Id": 197,
+              "StartLine": 72,
+              "EndLine": 72,
+              "StartColumn": 33,
+              "EndColumn": 35,
+              "Class": "CrossSolar.Controllers.AnalyticsController/<DayResults>d__5",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void CrossSolar.Controllers.AnalyticsController/<DayResults>d__5::MoveNext()",
+              "Instruction": "IL_03b4: ldarg "
+            },
+            {
+              "Id": 198,
+              "StartLine": 85,
+              "EndLine": 85,
+              "StartColumn": 13,
+              "EndColumn": 31,
+              "Class": "CrossSolar.Controllers.AnalyticsController/<DayResults>d__5",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void CrossSolar.Controllers.AnalyticsController/<DayResults>d__5::MoveNext()",
+              "Instruction": "IL_03e9: ldarg "
+            },
+            {
+              "Id": 199,
+              "StartLine": 101,
+              "EndLine": 107,
+              "StartColumn": 73,
+              "EndColumn": 14,
+              "Class": "CrossSolar.Controllers.AnalyticsController/<>c__DisplayClass6_0",
+              "Method": "<Post>b__1",
+              "MethodFullName": "CrossSolar.Domain.OneHourElectricity CrossSolar.Controllers.AnalyticsController/<>c__DisplayClass6_0::<Post>b__1()",
+              "Instruction": "IL_0000: newobj System.Void CrossSolar.Domain.OneHourElectricity::.ctor()"
+            },
+            {
+              "Id": 200,
+              "StartLine": 101,
+              "EndLine": 107,
+              "StartColumn": 73,
+              "EndColumn": 14,
+              "Class": "CrossSolar.Controllers.AnalyticsController/<>c__DisplayClass6_0",
+              "Method": "<Post>b__1",
+              "MethodFullName": "CrossSolar.Domain.OneHourElectricity CrossSolar.Controllers.AnalyticsController/<>c__DisplayClass6_0::<Post>b__1()",
+              "Instruction": "IL_0000: newobj System.Void CrossSolar.Domain.OneHourElectricity::.ctor()"
+            },
+            {
+              "Id": 201,
+              "StartLine": 111,
+              "EndLine": 118,
+              "StartColumn": 72,
+              "EndColumn": 14,
+              "Class": "CrossSolar.Controllers.AnalyticsController/<>c__DisplayClass6_0",
+              "Method": "<Post>b__2",
+              "MethodFullName": "CrossSolar.Models.OneHourElectricityModel CrossSolar.Controllers.AnalyticsController/<>c__DisplayClass6_0::<Post>b__2()",
+              "Instruction": "IL_0000: newobj System.Void CrossSolar.Models.OneHourElectricityModel::.ctor()"
+            },
+            {
+              "Id": 202,
+              "StartLine": 111,
+              "EndLine": 118,
+              "StartColumn": 72,
+              "EndColumn": 14,
+              "Class": "CrossSolar.Controllers.AnalyticsController/<>c__DisplayClass6_0",
+              "Method": "<Post>b__2",
+              "MethodFullName": "CrossSolar.Models.OneHourElectricityModel CrossSolar.Controllers.AnalyticsController/<>c__DisplayClass6_0::<Post>b__2()",
+              "Instruction": "IL_0000: newobj System.Void CrossSolar.Models.OneHourElectricityModel::.ctor()"
+            },
+            {
+              "Id": 203,
+              "StartLine": 131,
+              "EndLine": 141,
+              "StartColumn": 78,
+              "EndColumn": 14,
+              "Class": "CrossSolar.Controllers.AnalyticsController/<>c__DisplayClass6_0",
+              "Method": "<Post>b__5",
+              "MethodFullName": "CrossSolar.Domain.OneDayElectricity CrossSolar.Controllers.AnalyticsController/<>c__DisplayClass6_0::<Post>b__5()",
+              "Instruction": "IL_0000: newobj System.Void CrossSolar.Domain.OneDayElectricity::.ctor()"
+            },
+            {
+              "Id": 204,
+              "StartLine": 131,
+              "EndLine": 141,
+              "StartColumn": 78,
+              "EndColumn": 14,
+              "Class": "CrossSolar.Controllers.AnalyticsController/<>c__DisplayClass6_0",
+              "Method": "<Post>b__5",
+              "MethodFullName": "CrossSolar.Domain.OneDayElectricity CrossSolar.Controllers.AnalyticsController/<>c__DisplayClass6_0::<Post>b__5()",
+              "Instruction": "IL_0000: newobj System.Void CrossSolar.Domain.OneDayElectricity::.ctor()"
+            },
+            {
+              "Id": 205,
+              "StartLine": 94,
+              "EndLine": 94,
+              "StartColumn": 13,
+              "EndColumn": 37,
+              "Class": "CrossSolar.Controllers.AnalyticsController/<Post>d__6",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void CrossSolar.Controllers.AnalyticsController/<Post>d__6::MoveNext()",
+              "Instruction": "IL_008e: ldarg "
+            },
+            {
+              "Id": 206,
+              "StartLine": 94,
+              "EndLine": 94,
+              "StartColumn": 38,
+              "EndColumn": 68,
+              "Class": "CrossSolar.Controllers.AnalyticsController/<Post>d__6",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void CrossSolar.Controllers.AnalyticsController/<Post>d__6::MoveNext()",
+              "Instruction": "IL_00a5: ldarg "
+            },
+            {
+              "Id": 207,
+              "StartLine": 96,
+              "EndLine": 96,
+              "StartColumn": 13,
+              "EndColumn": 165,
+              "Class": "CrossSolar.Controllers.AnalyticsController/<Post>d__6",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void CrossSolar.Controllers.AnalyticsController/<Post>d__6::MoveNext()",
+              "Instruction": "IL_00c1: ldarg "
+            },
+            {
+              "Id": 208,
+              "StartLine": 98,
+              "EndLine": 98,
+              "StartColumn": 13,
+              "EndColumn": 31,
+              "Class": "CrossSolar.Controllers.AnalyticsController/<Post>d__6",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void CrossSolar.Controllers.AnalyticsController/<Post>d__6::MoveNext()",
+              "Instruction": "IL_01ed: ldarg "
+            },
+            {
+              "Id": 209,
+              "StartLine": 98,
+              "EndLine": 98,
+              "StartColumn": 32,
+              "EndColumn": 71,
+              "Class": "CrossSolar.Controllers.AnalyticsController/<Post>d__6",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void CrossSolar.Controllers.AnalyticsController/<Post>d__6::MoveNext()",
+              "Instruction": "IL_01fc: ldarg "
+            },
+            {
+              "Id": 210,
+              "StartLine": 101,
+              "EndLine": 107,
+              "StartColumn": 13,
+              "EndColumn": 16,
+              "Class": "CrossSolar.Controllers.AnalyticsController/<Post>d__6",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void CrossSolar.Controllers.AnalyticsController/<Post>d__6::MoveNext()",
+              "Instruction": "IL_0212: ldarg "
+            },
+            {
+              "Id": 211,
+              "StartLine": 109,
+              "EndLine": 109,
+              "StartColumn": 13,
+              "EndColumn": 79,
+              "Class": "CrossSolar.Controllers.AnalyticsController/<Post>d__6",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void CrossSolar.Controllers.AnalyticsController/<Post>d__6::MoveNext()",
+              "Instruction": "IL_02b6: ldarg "
+            },
+            {
+              "Id": 212,
+              "StartLine": 111,
+              "EndLine": 118,
+              "StartColumn": 13,
+              "EndColumn": 16,
+              "Class": "CrossSolar.Controllers.AnalyticsController/<Post>d__6",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void CrossSolar.Controllers.AnalyticsController/<Post>d__6::MoveNext()",
+              "Instruction": "IL_032f: ldarg "
+            },
+            {
+              "Id": 213,
+              "StartLine": 122,
+              "EndLine": 124,
+              "StartColumn": 13,
+              "EndColumn": 75,
+              "Class": "CrossSolar.Controllers.AnalyticsController/<Post>d__6",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void CrossSolar.Controllers.AnalyticsController/<Post>d__6::MoveNext()",
+              "Instruction": "IL_03bb: ldarg "
+            },
+            {
+              "Id": 214,
+              "StartLine": 127,
+              "EndLine": 129,
+              "StartColumn": 13,
+              "EndColumn": 111,
+              "Class": "CrossSolar.Controllers.AnalyticsController/<Post>d__6",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void CrossSolar.Controllers.AnalyticsController/<Post>d__6::MoveNext()",
+              "Instruction": "IL_056f: ldarg "
+            },
+            {
+              "Id": 215,
+              "StartLine": 131,
+              "EndLine": 141,
+              "StartColumn": 13,
+              "EndColumn": 16,
+              "Class": "CrossSolar.Controllers.AnalyticsController/<Post>d__6",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void CrossSolar.Controllers.AnalyticsController/<Post>d__6::MoveNext()",
+              "Instruction": "IL_079e: ldarg "
+            },
+            {
+              "Id": 216,
+              "StartLine": 143,
+              "EndLine": 143,
+              "StartColumn": 13,
+              "EndColumn": 39,
+              "Class": "CrossSolar.Controllers.AnalyticsController/<Post>d__6",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void CrossSolar.Controllers.AnalyticsController/<Post>d__6::MoveNext()",
+              "Instruction": "IL_082a: ldarg "
+            },
+            {
+              "Id": 217,
+              "StartLine": 144,
+              "EndLine": 144,
+              "StartColumn": 17,
+              "EndColumn": 79,
+              "Class": "CrossSolar.Controllers.AnalyticsController/<Post>d__6",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void CrossSolar.Controllers.AnalyticsController/<Post>d__6::MoveNext()",
+              "Instruction": "IL_0843: ldarg "
+            },
+            {
+              "Id": 218,
+              "StartLine": 146,
+              "EndLine": 146,
+              "StartColumn": 17,
+              "EndColumn": 79,
+              "Class": "CrossSolar.Controllers.AnalyticsController/<Post>d__6",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void CrossSolar.Controllers.AnalyticsController/<Post>d__6::MoveNext()",
+              "Instruction": "IL_08b9: ldarg "
+            },
+            {
+              "Id": 219,
+              "StartLine": 150,
+              "EndLine": 150,
+              "StartColumn": 13,
+              "EndColumn": 78,
+              "Class": "CrossSolar.Controllers.AnalyticsController/<Post>d__6",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void CrossSolar.Controllers.AnalyticsController/<Post>d__6::MoveNext()",
+              "Instruction": "IL_092d: ldarg "
+            },
+            {
+              "Id": 220,
+              "StartLine": 94,
+              "EndLine": 94,
+              "StartColumn": 13,
+              "EndColumn": 37,
+              "Class": "CrossSolar.Controllers.AnalyticsController/<Post>d__6",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void CrossSolar.Controllers.AnalyticsController/<Post>d__6::MoveNext()",
+              "Instruction": "IL_008e: ldarg "
+            },
+            {
+              "Id": 221,
+              "StartLine": 94,
+              "EndLine": 94,
+              "StartColumn": 38,
+              "EndColumn": 68,
+              "Class": "CrossSolar.Controllers.AnalyticsController/<Post>d__6",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void CrossSolar.Controllers.AnalyticsController/<Post>d__6::MoveNext()",
+              "Instruction": "IL_00a5: ldarg "
+            },
+            {
+              "Id": 222,
+              "StartLine": 96,
+              "EndLine": 96,
+              "StartColumn": 13,
+              "EndColumn": 165,
+              "Class": "CrossSolar.Controllers.AnalyticsController/<Post>d__6",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void CrossSolar.Controllers.AnalyticsController/<Post>d__6::MoveNext()",
+              "Instruction": "IL_00c1: ldarg "
+            },
+            {
+              "Id": 223,
+              "StartLine": 98,
+              "EndLine": 98,
+              "StartColumn": 13,
+              "EndColumn": 31,
+              "Class": "CrossSolar.Controllers.AnalyticsController/<Post>d__6",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void CrossSolar.Controllers.AnalyticsController/<Post>d__6::MoveNext()",
+              "Instruction": "IL_01ed: ldarg "
+            },
+            {
+              "Id": 224,
+              "StartLine": 98,
+              "EndLine": 98,
+              "StartColumn": 32,
+              "EndColumn": 71,
+              "Class": "CrossSolar.Controllers.AnalyticsController/<Post>d__6",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void CrossSolar.Controllers.AnalyticsController/<Post>d__6::MoveNext()",
+              "Instruction": "IL_01fc: ldarg "
+            },
+            {
+              "Id": 225,
+              "StartLine": 101,
+              "EndLine": 107,
+              "StartColumn": 13,
+              "EndColumn": 16,
+              "Class": "CrossSolar.Controllers.AnalyticsController/<Post>d__6",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void CrossSolar.Controllers.AnalyticsController/<Post>d__6::MoveNext()",
+              "Instruction": "IL_0212: ldarg "
+            },
+            {
+              "Id": 226,
+              "StartLine": 109,
+              "EndLine": 109,
+              "StartColumn": 13,
+              "EndColumn": 79,
+              "Class": "CrossSolar.Controllers.AnalyticsController/<Post>d__6",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void CrossSolar.Controllers.AnalyticsController/<Post>d__6::MoveNext()",
+              "Instruction": "IL_02b6: ldarg "
+            },
+            {
+              "Id": 227,
+              "StartLine": 111,
+              "EndLine": 118,
+              "StartColumn": 13,
+              "EndColumn": 16,
+              "Class": "CrossSolar.Controllers.AnalyticsController/<Post>d__6",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void CrossSolar.Controllers.AnalyticsController/<Post>d__6::MoveNext()",
+              "Instruction": "IL_032f: ldarg "
+            },
+            {
+              "Id": 228,
+              "StartLine": 122,
+              "EndLine": 124,
+              "StartColumn": 13,
+              "EndColumn": 75,
+              "Class": "CrossSolar.Controllers.AnalyticsController/<Post>d__6",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void CrossSolar.Controllers.AnalyticsController/<Post>d__6::MoveNext()",
+              "Instruction": "IL_03bb: ldarg "
+            },
+            {
+              "Id": 229,
+              "StartLine": 127,
+              "EndLine": 129,
+              "StartColumn": 13,
+              "EndColumn": 111,
+              "Class": "CrossSolar.Controllers.AnalyticsController/<Post>d__6",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void CrossSolar.Controllers.AnalyticsController/<Post>d__6::MoveNext()",
+              "Instruction": "IL_056f: ldarg "
+            },
+            {
+              "Id": 230,
+              "StartLine": 131,
+              "EndLine": 141,
+              "StartColumn": 13,
+              "EndColumn": 16,
+              "Class": "CrossSolar.Controllers.AnalyticsController/<Post>d__6",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void CrossSolar.Controllers.AnalyticsController/<Post>d__6::MoveNext()",
+              "Instruction": "IL_079e: ldarg "
+            },
+            {
+              "Id": 231,
+              "StartLine": 143,
+              "EndLine": 143,
+              "StartColumn": 13,
+              "EndColumn": 39,
+              "Class": "CrossSolar.Controllers.AnalyticsController/<Post>d__6",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void CrossSolar.Controllers.AnalyticsController/<Post>d__6::MoveNext()",
+              "Instruction": "IL_082a: ldarg "
+            },
+            {
+              "Id": 232,
+              "StartLine": 144,
+              "EndLine": 144,
+              "StartColumn": 17,
+              "EndColumn": 79,
+              "Class": "CrossSolar.Controllers.AnalyticsController/<Post>d__6",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void CrossSolar.Controllers.AnalyticsController/<Post>d__6::MoveNext()",
+              "Instruction": "IL_0843: ldarg "
+            },
+            {
+              "Id": 233,
+              "StartLine": 146,
+              "EndLine": 146,
+              "StartColumn": 17,
+              "EndColumn": 79,
+              "Class": "CrossSolar.Controllers.AnalyticsController/<Post>d__6",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void CrossSolar.Controllers.AnalyticsController/<Post>d__6::MoveNext()",
+              "Instruction": "IL_08b9: ldarg "
+            },
+            {
+              "Id": 234,
+              "StartLine": 150,
+              "EndLine": 150,
+              "StartColumn": 13,
+              "EndColumn": 78,
+              "Class": "CrossSolar.Controllers.AnalyticsController/<Post>d__6",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void CrossSolar.Controllers.AnalyticsController/<Post>d__6::MoveNext()",
+              "Instruction": "IL_092d: ldarg "
+            }
+          ]
+        },
+        "CrossSolar\\Controllers\\PanelController.cs": {
+          "Instructions": [
+            {
+              "Id": 235,
+              "StartLine": 14,
+              "EndLine": 14,
+              "StartColumn": 9,
+              "EndColumn": 65,
+              "Class": "CrossSolar.Controllers.PanelController",
+              "Method": ".ctor",
+              "MethodFullName": "System.Void CrossSolar.Controllers.PanelController::.ctor(CrossSolar.Repository.IPanelRepository)",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 236,
+              "StartLine": 16,
+              "EndLine": 16,
+              "StartColumn": 13,
+              "EndColumn": 48,
+              "Class": "CrossSolar.Controllers.PanelController",
+              "Method": ".ctor",
+              "MethodFullName": "System.Void CrossSolar.Controllers.PanelController::.ctor(CrossSolar.Repository.IPanelRepository)",
+              "Instruction": "IL_0008: ldarg "
+            },
+            {
+              "Id": 237,
+              "StartLine": 28,
+              "EndLine": 34,
+              "StartColumn": 53,
+              "EndColumn": 14,
+              "Class": "CrossSolar.Controllers.PanelController/<>c__DisplayClass2_0",
+              "Method": "<Register>b__0",
+              "MethodFullName": "CrossSolar.Domain.Panel CrossSolar.Controllers.PanelController/<>c__DisplayClass2_0::<Register>b__0()",
+              "Instruction": "IL_0000: newobj System.Void CrossSolar.Domain.Panel::.ctor()"
+            },
+            {
+              "Id": 238,
+              "StartLine": 28,
+              "EndLine": 34,
+              "StartColumn": 53,
+              "EndColumn": 14,
+              "Class": "CrossSolar.Controllers.PanelController/<>c__DisplayClass2_0",
+              "Method": "<Register>b__0",
+              "MethodFullName": "CrossSolar.Domain.Panel CrossSolar.Controllers.PanelController/<>c__DisplayClass2_0::<Register>b__0()",
+              "Instruction": "IL_0000: newobj System.Void CrossSolar.Domain.Panel::.ctor()"
+            },
+            {
+              "Id": 239,
+              "StartLine": 26,
+              "EndLine": 26,
+              "StartColumn": 13,
+              "EndColumn": 37,
+              "Class": "CrossSolar.Controllers.PanelController/<Register>d__2",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void CrossSolar.Controllers.PanelController/<Register>d__2::MoveNext()",
+              "Instruction": "IL_0039: ldarg "
+            },
+            {
+              "Id": 240,
+              "StartLine": 26,
+              "EndLine": 26,
+              "StartColumn": 38,
+              "EndColumn": 68,
+              "Class": "CrossSolar.Controllers.PanelController/<Register>d__2",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void CrossSolar.Controllers.PanelController/<Register>d__2::MoveNext()",
+              "Instruction": "IL_0050: ldarg "
+            },
+            {
+              "Id": 241,
+              "StartLine": 28,
+              "EndLine": 34,
+              "StartColumn": 10,
+              "EndColumn": 16,
+              "Class": "CrossSolar.Controllers.PanelController/<Register>d__2",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void CrossSolar.Controllers.PanelController/<Register>d__2::MoveNext()",
+              "Instruction": "IL_006c: ldarg "
+            },
+            {
+              "Id": 242,
+              "StartLine": 36,
+              "EndLine": 36,
+              "StartColumn": 13,
+              "EndColumn": 55,
+              "Class": "CrossSolar.Controllers.PanelController/<Register>d__2",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void CrossSolar.Controllers.PanelController/<Register>d__2::MoveNext()",
+              "Instruction": "IL_00f5: ldarg "
+            },
+            {
+              "Id": 243,
+              "StartLine": 38,
+              "EndLine": 38,
+              "StartColumn": 13,
+              "EndColumn": 56,
+              "Class": "CrossSolar.Controllers.PanelController/<Register>d__2",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void CrossSolar.Controllers.PanelController/<Register>d__2::MoveNext()",
+              "Instruction": "IL_0169: ldarg "
+            },
+            {
+              "Id": 244,
+              "StartLine": 26,
+              "EndLine": 26,
+              "StartColumn": 13,
+              "EndColumn": 37,
+              "Class": "CrossSolar.Controllers.PanelController/<Register>d__2",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void CrossSolar.Controllers.PanelController/<Register>d__2::MoveNext()",
+              "Instruction": "IL_0039: ldarg "
+            },
+            {
+              "Id": 245,
+              "StartLine": 26,
+              "EndLine": 26,
+              "StartColumn": 38,
+              "EndColumn": 68,
+              "Class": "CrossSolar.Controllers.PanelController/<Register>d__2",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void CrossSolar.Controllers.PanelController/<Register>d__2::MoveNext()",
+              "Instruction": "IL_0050: ldarg "
+            },
+            {
+              "Id": 246,
+              "StartLine": 28,
+              "EndLine": 34,
+              "StartColumn": 10,
+              "EndColumn": 16,
+              "Class": "CrossSolar.Controllers.PanelController/<Register>d__2",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void CrossSolar.Controllers.PanelController/<Register>d__2::MoveNext()",
+              "Instruction": "IL_006c: ldarg "
+            },
+            {
+              "Id": 247,
+              "StartLine": 36,
+              "EndLine": 36,
+              "StartColumn": 13,
+              "EndColumn": 55,
+              "Class": "CrossSolar.Controllers.PanelController/<Register>d__2",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void CrossSolar.Controllers.PanelController/<Register>d__2::MoveNext()",
+              "Instruction": "IL_00f5: ldarg "
+            },
+            {
+              "Id": 248,
+              "StartLine": 38,
+              "EndLine": 38,
+              "StartColumn": 13,
+              "EndColumn": 56,
+              "Class": "CrossSolar.Controllers.PanelController/<Register>d__2",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void CrossSolar.Controllers.PanelController/<Register>d__2::MoveNext()",
+              "Instruction": "IL_0169: ldarg "
+            }
+          ]
+        },
+        "CrossSolar\\Domain\\AppSettings.cs": {
+          "Instructions": [
+            {
+              "Id": 93,
+              "StartLine": 10,
+              "EndLine": 10,
+              "StartColumn": 42,
+              "EndColumn": 46,
+              "Class": "CrossSolar.Domain.AppSettings",
+              "Method": "get_ConnectionString",
+              "MethodFullName": "System.String CrossSolar.Domain.AppSettings::get_ConnectionString()",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 94,
+              "StartLine": 10,
+              "EndLine": 10,
+              "StartColumn": 47,
+              "EndColumn": 51,
+              "Class": "CrossSolar.Domain.AppSettings",
+              "Method": "set_ConnectionString",
+              "MethodFullName": "System.Void CrossSolar.Domain.AppSettings::set_ConnectionString(System.String)",
+              "Instruction": "IL_0000: ldarg "
+            }
+          ]
+        },
+        "CrossSolar\\Domain\\OneDayElectricity.cs": {
+          "Instructions": [
+            {
+              "Id": 95,
+              "StartLine": 11,
+              "EndLine": 11,
+              "StartColumn": 25,
+              "EndColumn": 29,
+              "Class": "CrossSolar.Domain.OneDayElectricity",
+              "Method": "get_Id",
+              "MethodFullName": "System.Int32 CrossSolar.Domain.OneDayElectricity::get_Id()",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 96,
+              "StartLine": 11,
+              "EndLine": 11,
+              "StartColumn": 30,
+              "EndColumn": 34,
+              "Class": "CrossSolar.Domain.OneDayElectricity",
+              "Method": "set_Id",
+              "MethodFullName": "System.Void CrossSolar.Domain.OneDayElectricity::set_Id(System.Int32)",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 97,
+              "StartLine": 13,
+              "EndLine": 13,
+              "StartColumn": 33,
+              "EndColumn": 37,
+              "Class": "CrossSolar.Domain.OneDayElectricity",
+              "Method": "get_PanelId",
+              "MethodFullName": "System.String CrossSolar.Domain.OneDayElectricity::get_PanelId()",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 98,
+              "StartLine": 13,
+              "EndLine": 13,
+              "StartColumn": 38,
+              "EndColumn": 42,
+              "Class": "CrossSolar.Domain.OneDayElectricity",
+              "Method": "set_PanelId",
+              "MethodFullName": "System.Void CrossSolar.Domain.OneDayElectricity::set_PanelId(System.String)",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 99,
+              "StartLine": 15,
+              "EndLine": 15,
+              "StartColumn": 30,
+              "EndColumn": 34,
+              "Class": "CrossSolar.Domain.OneDayElectricity",
+              "Method": "get_Sum",
+              "MethodFullName": "System.Decimal CrossSolar.Domain.OneDayElectricity::get_Sum()",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 100,
+              "StartLine": 15,
+              "EndLine": 15,
+              "StartColumn": 35,
+              "EndColumn": 39,
+              "Class": "CrossSolar.Domain.OneDayElectricity",
+              "Method": "set_Sum",
+              "MethodFullName": "System.Void CrossSolar.Domain.OneDayElectricity::set_Sum(System.Decimal)",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 101,
+              "StartLine": 17,
+              "EndLine": 17,
+              "StartColumn": 34,
+              "EndColumn": 38,
+              "Class": "CrossSolar.Domain.OneDayElectricity",
+              "Method": "get_Average",
+              "MethodFullName": "System.Decimal CrossSolar.Domain.OneDayElectricity::get_Average()",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 102,
+              "StartLine": 17,
+              "EndLine": 17,
+              "StartColumn": 39,
+              "EndColumn": 43,
+              "Class": "CrossSolar.Domain.OneDayElectricity",
+              "Method": "set_Average",
+              "MethodFullName": "System.Void CrossSolar.Domain.OneDayElectricity::set_Average(System.Decimal)",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 103,
+              "StartLine": 19,
+              "EndLine": 19,
+              "StartColumn": 34,
+              "EndColumn": 38,
+              "Class": "CrossSolar.Domain.OneDayElectricity",
+              "Method": "get_Maximum",
+              "MethodFullName": "System.Decimal CrossSolar.Domain.OneDayElectricity::get_Maximum()",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 104,
+              "StartLine": 19,
+              "EndLine": 19,
+              "StartColumn": 39,
+              "EndColumn": 43,
+              "Class": "CrossSolar.Domain.OneDayElectricity",
+              "Method": "set_Maximum",
+              "MethodFullName": "System.Void CrossSolar.Domain.OneDayElectricity::set_Maximum(System.Decimal)",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 105,
+              "StartLine": 21,
+              "EndLine": 21,
+              "StartColumn": 34,
+              "EndColumn": 38,
+              "Class": "CrossSolar.Domain.OneDayElectricity",
+              "Method": "get_Minimum",
+              "MethodFullName": "System.Decimal CrossSolar.Domain.OneDayElectricity::get_Minimum()",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 106,
+              "StartLine": 21,
+              "EndLine": 21,
+              "StartColumn": 39,
+              "EndColumn": 43,
+              "Class": "CrossSolar.Domain.OneDayElectricity",
+              "Method": "set_Minimum",
+              "MethodFullName": "System.Void CrossSolar.Domain.OneDayElectricity::set_Minimum(System.Decimal)",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 107,
+              "StartLine": 23,
+              "EndLine": 23,
+              "StartColumn": 36,
+              "EndColumn": 40,
+              "Class": "CrossSolar.Domain.OneDayElectricity",
+              "Method": "get_DateTime",
+              "MethodFullName": "System.DateTime CrossSolar.Domain.OneDayElectricity::get_DateTime()",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 108,
+              "StartLine": 23,
+              "EndLine": 23,
+              "StartColumn": 41,
+              "EndColumn": 45,
+              "Class": "CrossSolar.Domain.OneDayElectricity",
+              "Method": "set_DateTime",
+              "MethodFullName": "System.Void CrossSolar.Domain.OneDayElectricity::set_DateTime(System.DateTime)",
+              "Instruction": "IL_0000: ldarg "
+            }
+          ]
+        },
+        "CrossSolar\\Domain\\OneHourElectricity.cs": {
+          "Instructions": [
+            {
+              "Id": 109,
+              "StartLine": 7,
+              "EndLine": 7,
+              "StartColumn": 25,
+              "EndColumn": 29,
+              "Class": "CrossSolar.Domain.OneHourElectricity",
+              "Method": "get_Id",
+              "MethodFullName": "System.Int32 CrossSolar.Domain.OneHourElectricity::get_Id()",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 110,
+              "StartLine": 7,
+              "EndLine": 7,
+              "StartColumn": 30,
+              "EndColumn": 34,
+              "Class": "CrossSolar.Domain.OneHourElectricity",
+              "Method": "set_Id",
+              "MethodFullName": "System.Void CrossSolar.Domain.OneHourElectricity::set_Id(System.Int32)",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 111,
+              "StartLine": 9,
+              "EndLine": 9,
+              "StartColumn": 33,
+              "EndColumn": 37,
+              "Class": "CrossSolar.Domain.OneHourElectricity",
+              "Method": "get_PanelId",
+              "MethodFullName": "System.String CrossSolar.Domain.OneHourElectricity::get_PanelId()",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 112,
+              "StartLine": 9,
+              "EndLine": 9,
+              "StartColumn": 38,
+              "EndColumn": 42,
+              "Class": "CrossSolar.Domain.OneHourElectricity",
+              "Method": "set_PanelId",
+              "MethodFullName": "System.Void CrossSolar.Domain.OneHourElectricity::set_PanelId(System.String)",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 113,
+              "StartLine": 11,
+              "EndLine": 11,
+              "StartColumn": 32,
+              "EndColumn": 36,
+              "Class": "CrossSolar.Domain.OneHourElectricity",
+              "Method": "get_KiloWatt",
+              "MethodFullName": "System.Int64 CrossSolar.Domain.OneHourElectricity::get_KiloWatt()",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 114,
+              "StartLine": 11,
+              "EndLine": 11,
+              "StartColumn": 37,
+              "EndColumn": 41,
+              "Class": "CrossSolar.Domain.OneHourElectricity",
+              "Method": "set_KiloWatt",
+              "MethodFullName": "System.Void CrossSolar.Domain.OneHourElectricity::set_KiloWatt(System.Int64)",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 115,
+              "StartLine": 13,
+              "EndLine": 13,
+              "StartColumn": 28,
+              "EndColumn": 32,
+              "Class": "CrossSolar.Domain.OneHourElectricity",
+              "Method": "get_Watt",
+              "MethodFullName": "System.Int64 CrossSolar.Domain.OneHourElectricity::get_Watt()",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 116,
+              "StartLine": 13,
+              "EndLine": 13,
+              "StartColumn": 33,
+              "EndColumn": 37,
+              "Class": "CrossSolar.Domain.OneHourElectricity",
+              "Method": "set_Watt",
+              "MethodFullName": "System.Void CrossSolar.Domain.OneHourElectricity::set_Watt(System.Int64)",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 117,
+              "StartLine": 15,
+              "EndLine": 15,
+              "StartColumn": 36,
+              "EndColumn": 40,
+              "Class": "CrossSolar.Domain.OneHourElectricity",
+              "Method": "get_DateTime",
+              "MethodFullName": "System.DateTime CrossSolar.Domain.OneHourElectricity::get_DateTime()",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 118,
+              "StartLine": 15,
+              "EndLine": 15,
+              "StartColumn": 41,
+              "EndColumn": 45,
+              "Class": "CrossSolar.Domain.OneHourElectricity",
+              "Method": "set_DateTime",
+              "MethodFullName": "System.Void CrossSolar.Domain.OneHourElectricity::set_DateTime(System.DateTime)",
+              "Instruction": "IL_0000: ldarg "
+            }
+          ]
+        },
+        "CrossSolar\\Domain\\Panel.cs": {
+          "Instructions": [
+            {
+              "Id": 119,
+              "StartLine": 7,
+              "EndLine": 7,
+              "StartColumn": 25,
+              "EndColumn": 29,
+              "Class": "CrossSolar.Domain.Panel",
+              "Method": "get_Id",
+              "MethodFullName": "System.Int32 CrossSolar.Domain.Panel::get_Id()",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 120,
+              "StartLine": 7,
+              "EndLine": 7,
+              "StartColumn": 30,
+              "EndColumn": 34,
+              "Class": "CrossSolar.Domain.Panel",
+              "Method": "set_Id",
+              "MethodFullName": "System.Void CrossSolar.Domain.Panel::set_Id(System.Int32)",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 121,
+              "StartLine": 9,
+              "EndLine": 9,
+              "StartColumn": 34,
+              "EndColumn": 38,
+              "Class": "CrossSolar.Domain.Panel",
+              "Method": "get_Latitude",
+              "MethodFullName": "System.Double CrossSolar.Domain.Panel::get_Latitude()",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 122,
+              "StartLine": 9,
+              "EndLine": 9,
+              "StartColumn": 39,
+              "EndColumn": 43,
+              "Class": "CrossSolar.Domain.Panel",
+              "Method": "set_Latitude",
+              "MethodFullName": "System.Void CrossSolar.Domain.Panel::set_Latitude(System.Double)",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 123,
+              "StartLine": 11,
+              "EndLine": 11,
+              "StartColumn": 35,
+              "EndColumn": 39,
+              "Class": "CrossSolar.Domain.Panel",
+              "Method": "get_Longitude",
+              "MethodFullName": "System.Double CrossSolar.Domain.Panel::get_Longitude()",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 124,
+              "StartLine": 11,
+              "EndLine": 11,
+              "StartColumn": 40,
+              "EndColumn": 44,
+              "Class": "CrossSolar.Domain.Panel",
+              "Method": "set_Longitude",
+              "MethodFullName": "System.Void CrossSolar.Domain.Panel::set_Longitude(System.Double)",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 125,
+              "StartLine": 13,
+              "EndLine": 13,
+              "StartColumn": 42,
+              "EndColumn": 46,
+              "Class": "CrossSolar.Domain.Panel",
+              "Method": "get_Serial",
+              "MethodFullName": "System.String CrossSolar.Domain.Panel::get_Serial()",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 126,
+              "StartLine": 13,
+              "EndLine": 13,
+              "StartColumn": 47,
+              "EndColumn": 51,
+              "Class": "CrossSolar.Domain.Panel",
+              "Method": "set_Serial",
+              "MethodFullName": "System.Void CrossSolar.Domain.Panel::set_Serial(System.String)",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 127,
+              "StartLine": 15,
+              "EndLine": 15,
+              "StartColumn": 31,
+              "EndColumn": 35,
+              "Class": "CrossSolar.Domain.Panel",
+              "Method": "get_Brand",
+              "MethodFullName": "System.String CrossSolar.Domain.Panel::get_Brand()",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 128,
+              "StartLine": 15,
+              "EndLine": 15,
+              "StartColumn": 36,
+              "EndColumn": 40,
+              "Class": "CrossSolar.Domain.Panel",
+              "Method": "set_Brand",
+              "MethodFullName": "System.Void CrossSolar.Domain.Panel::set_Brand(System.String)",
+              "Instruction": "IL_0000: ldarg "
+            }
+          ]
+        },
+        "CrossSolar\\Exceptions\\HttpStatusCodeException.cs": {
+          "Instructions": [
+            {
+              "Id": 58,
+              "StartLine": 29,
+              "EndLine": 29,
+              "StartColumn": 51,
+              "EndColumn": 64,
+              "Class": "CrossSolar.Exceptions.HttpStatusCodeException",
+              "Method": ".ctor",
+              "MethodFullName": "System.Void CrossSolar.Exceptions.HttpStatusCodeException::.ctor(System.Int32)",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 59,
+              "StartLine": 8,
+              "EndLine": 8,
+              "StartColumn": 9,
+              "EndColumn": 55,
+              "Class": "CrossSolar.Exceptions.HttpStatusCodeException",
+              "Method": ".ctor",
+              "MethodFullName": "System.Void CrossSolar.Exceptions.HttpStatusCodeException::.ctor(System.Int32)",
+              "Instruction": "IL_000b: ldarg "
+            },
+            {
+              "Id": 60,
+              "StartLine": 10,
+              "EndLine": 10,
+              "StartColumn": 13,
+              "EndColumn": 37,
+              "Class": "CrossSolar.Exceptions.HttpStatusCodeException",
+              "Method": ".ctor",
+              "MethodFullName": "System.Void CrossSolar.Exceptions.HttpStatusCodeException::.ctor(System.Int32)",
+              "Instruction": "IL_0013: ldarg "
+            },
+            {
+              "Id": 61,
+              "StartLine": 29,
+              "EndLine": 29,
+              "StartColumn": 51,
+              "EndColumn": 64,
+              "Class": "CrossSolar.Exceptions.HttpStatusCodeException",
+              "Method": ".ctor",
+              "MethodFullName": "System.Void CrossSolar.Exceptions.HttpStatusCodeException::.ctor(System.Int32,System.String)",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 62,
+              "StartLine": 13,
+              "EndLine": 13,
+              "StartColumn": 74,
+              "EndColumn": 87,
+              "Class": "CrossSolar.Exceptions.HttpStatusCodeException",
+              "Method": ".ctor",
+              "MethodFullName": "System.Void CrossSolar.Exceptions.HttpStatusCodeException::.ctor(System.Int32,System.String)",
+              "Instruction": "IL_000b: ldarg "
+            },
+            {
+              "Id": 63,
+              "StartLine": 15,
+              "EndLine": 15,
+              "StartColumn": 13,
+              "EndColumn": 37,
+              "Class": "CrossSolar.Exceptions.HttpStatusCodeException",
+              "Method": ".ctor",
+              "MethodFullName": "System.Void CrossSolar.Exceptions.HttpStatusCodeException::.ctor(System.Int32,System.String)",
+              "Instruction": "IL_0014: ldarg "
+            },
+            {
+              "Id": 64,
+              "StartLine": 18,
+              "EndLine": 18,
+              "StartColumn": 75,
+              "EndColumn": 109,
+              "Class": "CrossSolar.Exceptions.HttpStatusCodeException",
+              "Method": ".ctor",
+              "MethodFullName": "System.Void CrossSolar.Exceptions.HttpStatusCodeException::.ctor(System.Int32,System.Exception)",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 65,
+              "StartLine": 22,
+              "EndLine": 22,
+              "StartColumn": 79,
+              "EndColumn": 119,
+              "Class": "CrossSolar.Exceptions.HttpStatusCodeException",
+              "Method": ".ctor",
+              "MethodFullName": "System.Void CrossSolar.Exceptions.HttpStatusCodeException::.ctor(System.Int32,Newtonsoft.Json.Linq.JObject)",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 66,
+              "StartLine": 24,
+              "EndLine": 24,
+              "StartColumn": 13,
+              "EndColumn": 47,
+              "Class": "CrossSolar.Exceptions.HttpStatusCodeException",
+              "Method": ".ctor",
+              "MethodFullName": "System.Void CrossSolar.Exceptions.HttpStatusCodeException::.ctor(System.Int32,Newtonsoft.Json.Linq.JObject)",
+              "Instruction": "IL_000f: ldarg "
+            },
+            {
+              "Id": 67,
+              "StartLine": 27,
+              "EndLine": 27,
+              "StartColumn": 33,
+              "EndColumn": 37,
+              "Class": "CrossSolar.Exceptions.HttpStatusCodeException",
+              "Method": "get_StatusCode",
+              "MethodFullName": "System.Int32 CrossSolar.Exceptions.HttpStatusCodeException::get_StatusCode()",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 68,
+              "StartLine": 27,
+              "EndLine": 27,
+              "StartColumn": 38,
+              "EndColumn": 42,
+              "Class": "CrossSolar.Exceptions.HttpStatusCodeException",
+              "Method": "set_StatusCode",
+              "MethodFullName": "System.Void CrossSolar.Exceptions.HttpStatusCodeException::set_StatusCode(System.Int32)",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 69,
+              "StartLine": 29,
+              "EndLine": 29,
+              "StartColumn": 37,
+              "EndColumn": 41,
+              "Class": "CrossSolar.Exceptions.HttpStatusCodeException",
+              "Method": "get_ContentType",
+              "MethodFullName": "System.String CrossSolar.Exceptions.HttpStatusCodeException::get_ContentType()",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 70,
+              "StartLine": 29,
+              "EndLine": 29,
+              "StartColumn": 42,
+              "EndColumn": 46,
+              "Class": "CrossSolar.Exceptions.HttpStatusCodeException",
+              "Method": "set_ContentType",
+              "MethodFullName": "System.Void CrossSolar.Exceptions.HttpStatusCodeException::set_ContentType(System.String)",
+              "Instruction": "IL_0000: ldarg "
+            }
+          ]
+        },
+        "CrossSolar\\Exceptions\\HttpStatusCodeExceptionMiddleware.cs": {
+          "Instructions": [
+            {
+              "Id": 71,
+              "StartLine": 13,
+              "EndLine": 13,
+              "StartColumn": 9,
+              "EndColumn": 101,
+              "Class": "CrossSolar.Exceptions.HttpStatusCodeExceptionMiddleware",
+              "Method": ".ctor",
+              "MethodFullName": "System.Void CrossSolar.Exceptions.HttpStatusCodeExceptionMiddleware::.ctor(Microsoft.AspNetCore.Http.RequestDelegate,Microsoft.Extensions.Logging.ILoggerFactory)",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 72,
+              "StartLine": 15,
+              "EndLine": 15,
+              "StartColumn": 13,
+              "EndColumn": 75,
+              "Class": "CrossSolar.Exceptions.HttpStatusCodeExceptionMiddleware",
+              "Method": ".ctor",
+              "MethodFullName": "System.Void CrossSolar.Exceptions.HttpStatusCodeExceptionMiddleware::.ctor(Microsoft.AspNetCore.Http.RequestDelegate,Microsoft.Extensions.Logging.ILoggerFactory)",
+              "Instruction": "IL_0008: ldarg "
+            },
+            {
+              "Id": 73,
+              "StartLine": 16,
+              "EndLine": 17,
+              "StartColumn": 13,
+              "EndColumn": 78,
+              "Class": "CrossSolar.Exceptions.HttpStatusCodeExceptionMiddleware",
+              "Method": ".ctor",
+              "MethodFullName": "System.Void CrossSolar.Exceptions.HttpStatusCodeExceptionMiddleware::.ctor(Microsoft.AspNetCore.Http.RequestDelegate,Microsoft.Extensions.Logging.ILoggerFactory)",
+              "Instruction": "IL_001e: ldarg "
+            },
+            {
+              "Id": 74,
+              "StartLine": 24,
+              "EndLine": 24,
+              "StartColumn": 17,
+              "EndColumn": 38,
+              "Class": "CrossSolar.Exceptions.HttpStatusCodeExceptionMiddleware/<Invoke>d__3",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void CrossSolar.Exceptions.HttpStatusCodeExceptionMiddleware/<Invoke>d__3::MoveNext()",
+              "Instruction": "IL_002a: ldarg "
+            },
+            {
+              "Id": 75,
+              "StartLine": 26,
+              "EndLine": 26,
+              "StartColumn": 13,
+              "EndColumn": 47,
+              "Class": "CrossSolar.Exceptions.HttpStatusCodeExceptionMiddleware/<Invoke>d__3",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void CrossSolar.Exceptions.HttpStatusCodeExceptionMiddleware/<Invoke>d__3::MoveNext()",
+              "Instruction": "IL_009d: stloc V_3"
+            },
+            {
+              "Id": 76,
+              "StartLine": 28,
+              "EndLine": 28,
+              "StartColumn": 17,
+              "EndColumn": 49,
+              "Class": "CrossSolar.Exceptions.HttpStatusCodeExceptionMiddleware/<Invoke>d__3",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void CrossSolar.Exceptions.HttpStatusCodeExceptionMiddleware/<Invoke>d__3::MoveNext()",
+              "Instruction": "IL_00d2: ldarg "
+            },
+            {
+              "Id": 77,
+              "StartLine": 30,
+              "EndLine": 31,
+              "StartColumn": 21,
+              "EndColumn": 116,
+              "Class": "CrossSolar.Exceptions.HttpStatusCodeExceptionMiddleware/<Invoke>d__3",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void CrossSolar.Exceptions.HttpStatusCodeExceptionMiddleware/<Invoke>d__3::MoveNext()",
+              "Instruction": "IL_00e9: ldarg "
+            },
+            {
+              "Id": 78,
+              "StartLine": 32,
+              "EndLine": 32,
+              "StartColumn": 21,
+              "EndColumn": 27,
+              "Class": "CrossSolar.Exceptions.HttpStatusCodeExceptionMiddleware/<Invoke>d__3",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void CrossSolar.Exceptions.HttpStatusCodeExceptionMiddleware/<Invoke>d__3::MoveNext()",
+              "Instruction": "IL_0104: ldarg "
+            },
+            {
+              "Id": 79,
+              "StartLine": 35,
+              "EndLine": 35,
+              "StartColumn": 17,
+              "EndColumn": 42,
+              "Class": "CrossSolar.Exceptions.HttpStatusCodeExceptionMiddleware/<Invoke>d__3",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void CrossSolar.Exceptions.HttpStatusCodeExceptionMiddleware/<Invoke>d__3::MoveNext()",
+              "Instruction": "IL_012a: ldarg "
+            },
+            {
+              "Id": 80,
+              "StartLine": 36,
+              "EndLine": 36,
+              "StartColumn": 17,
+              "EndColumn": 61,
+              "Class": "CrossSolar.Exceptions.HttpStatusCodeExceptionMiddleware/<Invoke>d__3",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void CrossSolar.Exceptions.HttpStatusCodeExceptionMiddleware/<Invoke>d__3::MoveNext()",
+              "Instruction": "IL_013b: ldarg "
+            },
+            {
+              "Id": 81,
+              "StartLine": 37,
+              "EndLine": 37,
+              "StartColumn": 17,
+              "EndColumn": 63,
+              "Class": "CrossSolar.Exceptions.HttpStatusCodeExceptionMiddleware/<Invoke>d__3",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void CrossSolar.Exceptions.HttpStatusCodeExceptionMiddleware/<Invoke>d__3::MoveNext()",
+              "Instruction": "IL_0157: ldarg "
+            },
+            {
+              "Id": 82,
+              "StartLine": 39,
+              "EndLine": 39,
+              "StartColumn": 17,
+              "EndColumn": 63,
+              "Class": "CrossSolar.Exceptions.HttpStatusCodeExceptionMiddleware/<Invoke>d__3",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void CrossSolar.Exceptions.HttpStatusCodeExceptionMiddleware/<Invoke>d__3::MoveNext()",
+              "Instruction": "IL_0173: ldarg "
+            },
+            {
+              "Id": 83,
+              "StartLine": 24,
+              "EndLine": 24,
+              "StartColumn": 17,
+              "EndColumn": 38,
+              "Class": "CrossSolar.Exceptions.HttpStatusCodeExceptionMiddleware/<Invoke>d__3",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void CrossSolar.Exceptions.HttpStatusCodeExceptionMiddleware/<Invoke>d__3::MoveNext()",
+              "Instruction": "IL_002a: ldarg "
+            },
+            {
+              "Id": 84,
+              "StartLine": 26,
+              "EndLine": 26,
+              "StartColumn": 13,
+              "EndColumn": 47,
+              "Class": "CrossSolar.Exceptions.HttpStatusCodeExceptionMiddleware/<Invoke>d__3",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void CrossSolar.Exceptions.HttpStatusCodeExceptionMiddleware/<Invoke>d__3::MoveNext()",
+              "Instruction": "IL_009d: stloc V_3"
+            },
+            {
+              "Id": 85,
+              "StartLine": 28,
+              "EndLine": 28,
+              "StartColumn": 17,
+              "EndColumn": 49,
+              "Class": "CrossSolar.Exceptions.HttpStatusCodeExceptionMiddleware/<Invoke>d__3",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void CrossSolar.Exceptions.HttpStatusCodeExceptionMiddleware/<Invoke>d__3::MoveNext()",
+              "Instruction": "IL_00d2: ldarg "
+            },
+            {
+              "Id": 86,
+              "StartLine": 30,
+              "EndLine": 31,
+              "StartColumn": 21,
+              "EndColumn": 116,
+              "Class": "CrossSolar.Exceptions.HttpStatusCodeExceptionMiddleware/<Invoke>d__3",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void CrossSolar.Exceptions.HttpStatusCodeExceptionMiddleware/<Invoke>d__3::MoveNext()",
+              "Instruction": "IL_00e9: ldarg "
+            },
+            {
+              "Id": 87,
+              "StartLine": 32,
+              "EndLine": 32,
+              "StartColumn": 21,
+              "EndColumn": 27,
+              "Class": "CrossSolar.Exceptions.HttpStatusCodeExceptionMiddleware/<Invoke>d__3",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void CrossSolar.Exceptions.HttpStatusCodeExceptionMiddleware/<Invoke>d__3::MoveNext()",
+              "Instruction": "IL_0104: ldarg "
+            },
+            {
+              "Id": 88,
+              "StartLine": 35,
+              "EndLine": 35,
+              "StartColumn": 17,
+              "EndColumn": 42,
+              "Class": "CrossSolar.Exceptions.HttpStatusCodeExceptionMiddleware/<Invoke>d__3",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void CrossSolar.Exceptions.HttpStatusCodeExceptionMiddleware/<Invoke>d__3::MoveNext()",
+              "Instruction": "IL_012a: ldarg "
+            },
+            {
+              "Id": 89,
+              "StartLine": 36,
+              "EndLine": 36,
+              "StartColumn": 17,
+              "EndColumn": 61,
+              "Class": "CrossSolar.Exceptions.HttpStatusCodeExceptionMiddleware/<Invoke>d__3",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void CrossSolar.Exceptions.HttpStatusCodeExceptionMiddleware/<Invoke>d__3::MoveNext()",
+              "Instruction": "IL_013b: ldarg "
+            },
+            {
+              "Id": 90,
+              "StartLine": 37,
+              "EndLine": 37,
+              "StartColumn": 17,
+              "EndColumn": 63,
+              "Class": "CrossSolar.Exceptions.HttpStatusCodeExceptionMiddleware/<Invoke>d__3",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void CrossSolar.Exceptions.HttpStatusCodeExceptionMiddleware/<Invoke>d__3::MoveNext()",
+              "Instruction": "IL_0157: ldarg "
+            },
+            {
+              "Id": 91,
+              "StartLine": 39,
+              "EndLine": 39,
+              "StartColumn": 17,
+              "EndColumn": 63,
+              "Class": "CrossSolar.Exceptions.HttpStatusCodeExceptionMiddleware/<Invoke>d__3",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void CrossSolar.Exceptions.HttpStatusCodeExceptionMiddleware/<Invoke>d__3::MoveNext()",
+              "Instruction": "IL_0173: ldarg "
+            }
+          ]
+        },
+        "CrossSolar\\Exceptions\\HttpStatusCodeExceptionMiddlewareExtensions.cs": {
+          "Instructions": [
+            {
+              "Id": 92,
+              "StartLine": 9,
+              "EndLine": 9,
+              "StartColumn": 13,
+              "EndColumn": 79,
+              "Class": "CrossSolar.Exceptions.HttpStatusCodeExceptionMiddlewareExtensions",
+              "Method": "UseHttpStatusCodeExceptionMiddleware",
+              "MethodFullName": "Microsoft.AspNetCore.Builder.IApplicationBuilder CrossSolar.Exceptions.HttpStatusCodeExceptionMiddlewareExtensions::UseHttpStatusCodeExceptionMiddleware(Microsoft.AspNetCore.Builder.IApplicationBuilder)",
+              "Instruction": "IL_0001: ldarg builder"
+            }
+          ]
+        },
+        "CrossSolar\\Models\\OneDayElectricityModel.cs": {
+          "Instructions": [
+            {
+              "Id": 22,
+              "StartLine": 7,
+              "EndLine": 7,
+              "StartColumn": 25,
+              "EndColumn": 29,
+              "Class": "CrossSolar.Models.OneDayElectricityModel",
+              "Method": "get_Id",
+              "MethodFullName": "System.Int32 CrossSolar.Models.OneDayElectricityModel::get_Id()",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 23,
+              "StartLine": 7,
+              "EndLine": 7,
+              "StartColumn": 30,
+              "EndColumn": 34,
+              "Class": "CrossSolar.Models.OneDayElectricityModel",
+              "Method": "set_Id",
+              "MethodFullName": "System.Void CrossSolar.Models.OneDayElectricityModel::set_Id(System.Int32)",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 24,
+              "StartLine": 9,
+              "EndLine": 9,
+              "StartColumn": 33,
+              "EndColumn": 37,
+              "Class": "CrossSolar.Models.OneDayElectricityModel",
+              "Method": "get_PanelId",
+              "MethodFullName": "System.String CrossSolar.Models.OneDayElectricityModel::get_PanelId()",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 25,
+              "StartLine": 9,
+              "EndLine": 9,
+              "StartColumn": 38,
+              "EndColumn": 42,
+              "Class": "CrossSolar.Models.OneDayElectricityModel",
+              "Method": "set_PanelId",
+              "MethodFullName": "System.Void CrossSolar.Models.OneDayElectricityModel::set_PanelId(System.String)",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 26,
+              "StartLine": 11,
+              "EndLine": 11,
+              "StartColumn": 30,
+              "EndColumn": 34,
+              "Class": "CrossSolar.Models.OneDayElectricityModel",
+              "Method": "get_Sum",
+              "MethodFullName": "System.Decimal CrossSolar.Models.OneDayElectricityModel::get_Sum()",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 27,
+              "StartLine": 11,
+              "EndLine": 11,
+              "StartColumn": 35,
+              "EndColumn": 39,
+              "Class": "CrossSolar.Models.OneDayElectricityModel",
+              "Method": "set_Sum",
+              "MethodFullName": "System.Void CrossSolar.Models.OneDayElectricityModel::set_Sum(System.Decimal)",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 28,
+              "StartLine": 13,
+              "EndLine": 13,
+              "StartColumn": 34,
+              "EndColumn": 38,
+              "Class": "CrossSolar.Models.OneDayElectricityModel",
+              "Method": "get_Average",
+              "MethodFullName": "System.Decimal CrossSolar.Models.OneDayElectricityModel::get_Average()",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 29,
+              "StartLine": 13,
+              "EndLine": 13,
+              "StartColumn": 39,
+              "EndColumn": 43,
+              "Class": "CrossSolar.Models.OneDayElectricityModel",
+              "Method": "set_Average",
+              "MethodFullName": "System.Void CrossSolar.Models.OneDayElectricityModel::set_Average(System.Decimal)",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 30,
+              "StartLine": 15,
+              "EndLine": 15,
+              "StartColumn": 34,
+              "EndColumn": 38,
+              "Class": "CrossSolar.Models.OneDayElectricityModel",
+              "Method": "get_Maximum",
+              "MethodFullName": "System.Decimal CrossSolar.Models.OneDayElectricityModel::get_Maximum()",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 31,
+              "StartLine": 15,
+              "EndLine": 15,
+              "StartColumn": 39,
+              "EndColumn": 43,
+              "Class": "CrossSolar.Models.OneDayElectricityModel",
+              "Method": "set_Maximum",
+              "MethodFullName": "System.Void CrossSolar.Models.OneDayElectricityModel::set_Maximum(System.Decimal)",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 32,
+              "StartLine": 17,
+              "EndLine": 17,
+              "StartColumn": 34,
+              "EndColumn": 38,
+              "Class": "CrossSolar.Models.OneDayElectricityModel",
+              "Method": "get_Minimum",
+              "MethodFullName": "System.Decimal CrossSolar.Models.OneDayElectricityModel::get_Minimum()",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 33,
+              "StartLine": 17,
+              "EndLine": 17,
+              "StartColumn": 39,
+              "EndColumn": 43,
+              "Class": "CrossSolar.Models.OneDayElectricityModel",
+              "Method": "set_Minimum",
+              "MethodFullName": "System.Void CrossSolar.Models.OneDayElectricityModel::set_Minimum(System.Decimal)",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 34,
+              "StartLine": 19,
+              "EndLine": 19,
+              "StartColumn": 36,
+              "EndColumn": 40,
+              "Class": "CrossSolar.Models.OneDayElectricityModel",
+              "Method": "get_DateTime",
+              "MethodFullName": "System.DateTime CrossSolar.Models.OneDayElectricityModel::get_DateTime()",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 35,
+              "StartLine": 19,
+              "EndLine": 19,
+              "StartColumn": 41,
+              "EndColumn": 45,
+              "Class": "CrossSolar.Models.OneDayElectricityModel",
+              "Method": "set_DateTime",
+              "MethodFullName": "System.Void CrossSolar.Models.OneDayElectricityModel::set_DateTime(System.DateTime)",
+              "Instruction": "IL_0000: ldarg "
+            }
+          ]
+        },
+        "CrossSolar\\Models\\OneHourElectricityListModel.cs": {
+          "Instructions": [
+            {
+              "Id": 36,
+              "StartLine": 7,
+              "EndLine": 7,
+              "StartColumn": 75,
+              "EndColumn": 79,
+              "Class": "CrossSolar.Models.OneHourElectricityListModel",
+              "Method": "get_OneHourElectricitys",
+              "MethodFullName": "System.Collections.Generic.IEnumerable`1<CrossSolar.Models.OneHourElectricityModel> CrossSolar.Models.OneHourElectricityListModel::get_OneHourElectricitys()",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 37,
+              "StartLine": 7,
+              "EndLine": 7,
+              "StartColumn": 80,
+              "EndColumn": 84,
+              "Class": "CrossSolar.Models.OneHourElectricityListModel",
+              "Method": "set_OneHourElectricitys",
+              "MethodFullName": "System.Void CrossSolar.Models.OneHourElectricityListModel::set_OneHourElectricitys(System.Collections.Generic.IEnumerable`1<CrossSolar.Models.OneHourElectricityModel>)",
+              "Instruction": "IL_0000: ldarg "
+            }
+          ]
+        },
+        "CrossSolar\\Models\\OneHourElectricityModel.cs": {
+          "Instructions": [
+            {
+              "Id": 38,
+              "StartLine": 8,
+              "EndLine": 8,
+              "StartColumn": 25,
+              "EndColumn": 29,
+              "Class": "CrossSolar.Models.OneHourElectricityModel",
+              "Method": "get_Id",
+              "MethodFullName": "System.Int32 CrossSolar.Models.OneHourElectricityModel::get_Id()",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 39,
+              "StartLine": 8,
+              "EndLine": 8,
+              "StartColumn": 30,
+              "EndColumn": 34,
+              "Class": "CrossSolar.Models.OneHourElectricityModel",
+              "Method": "set_Id",
+              "MethodFullName": "System.Void CrossSolar.Models.OneHourElectricityModel::set_Id(System.Int32)",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 40,
+              "StartLine": 10,
+              "EndLine": 10,
+              "StartColumn": 33,
+              "EndColumn": 37,
+              "Class": "CrossSolar.Models.OneHourElectricityModel",
+              "Method": "get_PanelId",
+              "MethodFullName": "System.String CrossSolar.Models.OneHourElectricityModel::get_PanelId()",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 41,
+              "StartLine": 10,
+              "EndLine": 10,
+              "StartColumn": 38,
+              "EndColumn": 42,
+              "Class": "CrossSolar.Models.OneHourElectricityModel",
+              "Method": "set_PanelId",
+              "MethodFullName": "System.Void CrossSolar.Models.OneHourElectricityModel::set_PanelId(System.String)",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 42,
+              "StartLine": 12,
+              "EndLine": 12,
+              "StartColumn": 32,
+              "EndColumn": 36,
+              "Class": "CrossSolar.Models.OneHourElectricityModel",
+              "Method": "get_KiloWatt",
+              "MethodFullName": "System.Int64 CrossSolar.Models.OneHourElectricityModel::get_KiloWatt()",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 43,
+              "StartLine": 12,
+              "EndLine": 12,
+              "StartColumn": 37,
+              "EndColumn": 41,
+              "Class": "CrossSolar.Models.OneHourElectricityModel",
+              "Method": "set_KiloWatt",
+              "MethodFullName": "System.Void CrossSolar.Models.OneHourElectricityModel::set_KiloWatt(System.Int64)",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 44,
+              "StartLine": 14,
+              "EndLine": 14,
+              "StartColumn": 28,
+              "EndColumn": 32,
+              "Class": "CrossSolar.Models.OneHourElectricityModel",
+              "Method": "get_Watt",
+              "MethodFullName": "System.Int64 CrossSolar.Models.OneHourElectricityModel::get_Watt()",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 45,
+              "StartLine": 14,
+              "EndLine": 14,
+              "StartColumn": 33,
+              "EndColumn": 37,
+              "Class": "CrossSolar.Models.OneHourElectricityModel",
+              "Method": "set_Watt",
+              "MethodFullName": "System.Void CrossSolar.Models.OneHourElectricityModel::set_Watt(System.Int64)",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 46,
+              "StartLine": 16,
+              "EndLine": 16,
+              "StartColumn": 36,
+              "EndColumn": 40,
+              "Class": "CrossSolar.Models.OneHourElectricityModel",
+              "Method": "get_DateTime",
+              "MethodFullName": "System.DateTime CrossSolar.Models.OneHourElectricityModel::get_DateTime()",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 47,
+              "StartLine": 16,
+              "EndLine": 16,
+              "StartColumn": 41,
+              "EndColumn": 45,
+              "Class": "CrossSolar.Models.OneHourElectricityModel",
+              "Method": "set_DateTime",
+              "MethodFullName": "System.Void CrossSolar.Models.OneHourElectricityModel::set_DateTime(System.DateTime)",
+              "Instruction": "IL_0000: ldarg "
+            }
+          ]
+        },
+        "CrossSolar\\Models\\PanelModel.cs": {
+          "Instructions": [
+            {
+              "Id": 48,
+              "StartLine": 7,
+              "EndLine": 7,
+              "StartColumn": 25,
+              "EndColumn": 29,
+              "Class": "CrossSolar.Models.PanelModel",
+              "Method": "get_Id",
+              "MethodFullName": "System.Int32 CrossSolar.Models.PanelModel::get_Id()",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 49,
+              "StartLine": 7,
+              "EndLine": 7,
+              "StartColumn": 30,
+              "EndColumn": 34,
+              "Class": "CrossSolar.Models.PanelModel",
+              "Method": "set_Id",
+              "MethodFullName": "System.Void CrossSolar.Models.PanelModel::set_Id(System.Int32)",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 50,
+              "StartLine": 12,
+              "EndLine": 12,
+              "StartColumn": 34,
+              "EndColumn": 38,
+              "Class": "CrossSolar.Models.PanelModel",
+              "Method": "get_Latitude",
+              "MethodFullName": "System.Double CrossSolar.Models.PanelModel::get_Latitude()",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 51,
+              "StartLine": 12,
+              "EndLine": 12,
+              "StartColumn": 39,
+              "EndColumn": 43,
+              "Class": "CrossSolar.Models.PanelModel",
+              "Method": "set_Latitude",
+              "MethodFullName": "System.Void CrossSolar.Models.PanelModel::set_Latitude(System.Double)",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 52,
+              "StartLine": 16,
+              "EndLine": 16,
+              "StartColumn": 54,
+              "EndColumn": 58,
+              "Class": "CrossSolar.Models.PanelModel",
+              "Method": "get_Longitude",
+              "MethodFullName": "System.Double CrossSolar.Models.PanelModel::get_Longitude()",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 53,
+              "StartLine": 16,
+              "EndLine": 16,
+              "StartColumn": 59,
+              "EndColumn": 63,
+              "Class": "CrossSolar.Models.PanelModel",
+              "Method": "set_Longitude",
+              "MethodFullName": "System.Void CrossSolar.Models.PanelModel::set_Longitude(System.Double)",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 54,
+              "StartLine": 20,
+              "EndLine": 20,
+              "StartColumn": 32,
+              "EndColumn": 36,
+              "Class": "CrossSolar.Models.PanelModel",
+              "Method": "get_Serial",
+              "MethodFullName": "System.String CrossSolar.Models.PanelModel::get_Serial()",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 55,
+              "StartLine": 20,
+              "EndLine": 20,
+              "StartColumn": 37,
+              "EndColumn": 41,
+              "Class": "CrossSolar.Models.PanelModel",
+              "Method": "set_Serial",
+              "MethodFullName": "System.Void CrossSolar.Models.PanelModel::set_Serial(System.String)",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 56,
+              "StartLine": 22,
+              "EndLine": 22,
+              "StartColumn": 31,
+              "EndColumn": 35,
+              "Class": "CrossSolar.Models.PanelModel",
+              "Method": "get_Brand",
+              "MethodFullName": "System.String CrossSolar.Models.PanelModel::get_Brand()",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 57,
+              "StartLine": 22,
+              "EndLine": 22,
+              "StartColumn": 36,
+              "EndColumn": 40,
+              "Class": "CrossSolar.Models.PanelModel",
+              "Method": "set_Brand",
+              "MethodFullName": "System.Void CrossSolar.Models.PanelModel::set_Brand(System.String)",
+              "Instruction": "IL_0000: ldarg "
+            }
+          ]
+        },
+        "CrossSolar\\Repository\\AnalyticsRepository.cs": {
+          "Instructions": [
+            {
+              "Id": 1,
+              "StartLine": 7,
+              "EndLine": 7,
+              "StartColumn": 9,
+              "EndColumn": 66,
+              "Class": "CrossSolar.Repository.AnalyticsRepository",
+              "Method": ".ctor",
+              "MethodFullName": "System.Void CrossSolar.Repository.AnalyticsRepository::.ctor(CrossSolar.Domain.CrossSolarDbContext)",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 2,
+              "StartLine": 9,
+              "EndLine": 9,
+              "StartColumn": 13,
+              "EndColumn": 36,
+              "Class": "CrossSolar.Repository.AnalyticsRepository",
+              "Method": ".ctor",
+              "MethodFullName": "System.Void CrossSolar.Repository.AnalyticsRepository::.ctor(CrossSolar.Domain.CrossSolarDbContext)",
+              "Instruction": "IL_0008: ldarg "
+            }
+          ]
+        },
+        "CrossSolar\\Repository\\DayAnalyticsRepository.cs": {
+          "Instructions": [
+            {
+              "Id": 3,
+              "StartLine": 7,
+              "EndLine": 7,
+              "StartColumn": 9,
+              "EndColumn": 69,
+              "Class": "CrossSolar.Repository.DayAnalyticsRepository",
+              "Method": ".ctor",
+              "MethodFullName": "System.Void CrossSolar.Repository.DayAnalyticsRepository::.ctor(CrossSolar.Domain.CrossSolarDbContext)",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 4,
+              "StartLine": 9,
+              "EndLine": 9,
+              "StartColumn": 13,
+              "EndColumn": 36,
+              "Class": "CrossSolar.Repository.DayAnalyticsRepository",
+              "Method": ".ctor",
+              "MethodFullName": "System.Void CrossSolar.Repository.DayAnalyticsRepository::.ctor(CrossSolar.Domain.CrossSolarDbContext)",
+              "Instruction": "IL_0008: ldarg "
+            }
+          ]
+        },
+        "CrossSolar\\Repository\\GenericRepository.cs": {
+          "Instructions": [
+            {
+              "Id": 5,
+              "StartLine": 12,
+              "EndLine": 12,
+              "StartColumn": 52,
+              "EndColumn": 56,
+              "Class": "CrossSolar.Repository.GenericRepository`1",
+              "Method": "get__dbContext",
+              "MethodFullName": "CrossSolar.Domain.CrossSolarDbContext CrossSolar.Repository.GenericRepository`1::get__dbContext()",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 6,
+              "StartLine": 12,
+              "EndLine": 12,
+              "StartColumn": 57,
+              "EndColumn": 61,
+              "Class": "CrossSolar.Repository.GenericRepository`1",
+              "Method": "set__dbContext",
+              "MethodFullName": "System.Void CrossSolar.Repository.GenericRepository`1::set__dbContext(CrossSolar.Domain.CrossSolarDbContext)",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 7,
+              "StartLine": 22,
+              "EndLine": 22,
+              "StartColumn": 13,
+              "EndColumn": 54,
+              "Class": "CrossSolar.Repository.GenericRepository`1",
+              "Method": "Query",
+              "MethodFullName": "System.Linq.IQueryable`1<T> CrossSolar.Repository.GenericRepository`1::Query()",
+              "Instruction": "IL_0001: ldarg "
+            },
+            {
+              "Id": 8,
+              "StartLine": 16,
+              "EndLine": 16,
+              "StartColumn": 13,
+              "EndColumn": 54,
+              "Class": "CrossSolar.Repository.GenericRepository`1/<GetAsync>d__4",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void CrossSolar.Repository.GenericRepository`1/<GetAsync>d__4::MoveNext()",
+              "Instruction": "IL_000f: ldarg "
+            },
+            {
+              "Id": 9,
+              "StartLine": 16,
+              "EndLine": 16,
+              "StartColumn": 13,
+              "EndColumn": 54,
+              "Class": "CrossSolar.Repository.GenericRepository`1/<GetAsync>d__4",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void CrossSolar.Repository.GenericRepository`1/<GetAsync>d__4::MoveNext()",
+              "Instruction": "IL_000f: ldarg "
+            },
+            {
+              "Id": 10,
+              "StartLine": 27,
+              "EndLine": 27,
+              "StartColumn": 13,
+              "EndColumn": 45,
+              "Class": "CrossSolar.Repository.GenericRepository`1/<InsertAsync>d__6",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void CrossSolar.Repository.GenericRepository`1/<InsertAsync>d__6::MoveNext()",
+              "Instruction": "IL_000f: ldarg "
+            },
+            {
+              "Id": 11,
+              "StartLine": 28,
+              "EndLine": 28,
+              "StartColumn": 13,
+              "EndColumn": 49,
+              "Class": "CrossSolar.Repository.GenericRepository`1/<InsertAsync>d__6",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void CrossSolar.Repository.GenericRepository`1/<InsertAsync>d__6::MoveNext()",
+              "Instruction": "IL_002b: ldarg "
+            },
+            {
+              "Id": 12,
+              "StartLine": 29,
+              "EndLine": 29,
+              "StartColumn": 13,
+              "EndColumn": 67,
+              "Class": "CrossSolar.Repository.GenericRepository`1/<InsertAsync>d__6",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void CrossSolar.Repository.GenericRepository`1/<InsertAsync>d__6::MoveNext()",
+              "Instruction": "IL_009b: ldarg "
+            },
+            {
+              "Id": 13,
+              "StartLine": 27,
+              "EndLine": 27,
+              "StartColumn": 13,
+              "EndColumn": 45,
+              "Class": "CrossSolar.Repository.GenericRepository`1/<InsertAsync>d__6",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void CrossSolar.Repository.GenericRepository`1/<InsertAsync>d__6::MoveNext()",
+              "Instruction": "IL_000f: ldarg "
+            },
+            {
+              "Id": 14,
+              "StartLine": 28,
+              "EndLine": 28,
+              "StartColumn": 13,
+              "EndColumn": 49,
+              "Class": "CrossSolar.Repository.GenericRepository`1/<InsertAsync>d__6",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void CrossSolar.Repository.GenericRepository`1/<InsertAsync>d__6::MoveNext()",
+              "Instruction": "IL_002b: ldarg "
+            },
+            {
+              "Id": 15,
+              "StartLine": 29,
+              "EndLine": 29,
+              "StartColumn": 13,
+              "EndColumn": 67,
+              "Class": "CrossSolar.Repository.GenericRepository`1/<InsertAsync>d__6",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void CrossSolar.Repository.GenericRepository`1/<InsertAsync>d__6::MoveNext()",
+              "Instruction": "IL_009b: ldarg "
+            },
+            {
+              "Id": 16,
+              "StartLine": 35,
+              "EndLine": 35,
+              "StartColumn": 13,
+              "EndColumn": 67,
+              "Class": "CrossSolar.Repository.GenericRepository`1/<UpdateAsync>d__7",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void CrossSolar.Repository.GenericRepository`1/<UpdateAsync>d__7::MoveNext()",
+              "Instruction": "IL_000f: ldarg "
+            },
+            {
+              "Id": 17,
+              "StartLine": 36,
+              "EndLine": 36,
+              "StartColumn": 13,
+              "EndColumn": 49,
+              "Class": "CrossSolar.Repository.GenericRepository`1/<UpdateAsync>d__7",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void CrossSolar.Repository.GenericRepository`1/<UpdateAsync>d__7::MoveNext()",
+              "Instruction": "IL_002c: ldarg "
+            },
+            {
+              "Id": 18,
+              "StartLine": 35,
+              "EndLine": 35,
+              "StartColumn": 13,
+              "EndColumn": 67,
+              "Class": "CrossSolar.Repository.GenericRepository`1/<UpdateAsync>d__7",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void CrossSolar.Repository.GenericRepository`1/<UpdateAsync>d__7::MoveNext()",
+              "Instruction": "IL_000f: ldarg "
+            },
+            {
+              "Id": 19,
+              "StartLine": 36,
+              "EndLine": 36,
+              "StartColumn": 13,
+              "EndColumn": 49,
+              "Class": "CrossSolar.Repository.GenericRepository`1/<UpdateAsync>d__7",
+              "Method": "MoveNext",
+              "MethodFullName": "System.Void CrossSolar.Repository.GenericRepository`1/<UpdateAsync>d__7::MoveNext()",
+              "Instruction": "IL_002c: ldarg "
+            }
+          ]
+        },
+        "CrossSolar\\Repository\\PanelRepository.cs": {
+          "Instructions": [
+            {
+              "Id": 20,
+              "StartLine": 7,
+              "EndLine": 7,
+              "StartColumn": 9,
+              "EndColumn": 62,
+              "Class": "CrossSolar.Repository.PanelRepository",
+              "Method": ".ctor",
+              "MethodFullName": "System.Void CrossSolar.Repository.PanelRepository::.ctor(CrossSolar.Domain.CrossSolarDbContext)",
+              "Instruction": "IL_0000: ldarg "
+            },
+            {
+              "Id": 21,
+              "StartLine": 9,
+              "EndLine": 9,
+              "StartColumn": 13,
+              "EndColumn": 36,
+              "Class": "CrossSolar.Repository.PanelRepository",
+              "Method": ".ctor",
+              "MethodFullName": "System.Void CrossSolar.Repository.PanelRepository::.ctor(CrossSolar.Domain.CrossSolarDbContext)",
+              "Instruction": "IL_0008: ldarg "
+            }
+          ]
+        }
+      },
+      "Locations": [
+        {
+          "File": "E:\\cross-solar-dotnet\\cross-solar-dotnet\\CrossSolar.Tests\\bin\\Debug\\netcoreapp2.0\\CrossSolar.dll",
+          "BackupFile": "E:\\cross-solar-dotnet\\cross-solar-dotnet\\CrossSolar.Tests\\bin\\Debug\\netcoreapp2.0\\CrossSolar.uninstrumented.dll",
+          "PdbFile": "E:\\cross-solar-dotnet\\cross-solar-dotnet\\CrossSolar.Tests\\bin\\Debug\\netcoreapp2.0\\CrossSolar.pdb",
+          "BackupPdbFile": "E:\\cross-solar-dotnet\\cross-solar-dotnet\\CrossSolar.Tests\\bin\\Debug\\netcoreapp2.0\\CrossSolar.uninstrumented.pdb"
+        }
+      ]
+    }
+  ]
+}
